@@ -14,6 +14,7 @@
     <link href="assets/img/logos/favicon.png" rel="shortcut icon">
     <link href="assets/css/bundle.min.css" rel="stylesheet">
 </head>
+
 <!-- /Head -->
 <!-- Set Body to full screen when Preloader is showing ('vh-100 vw-100 overflow-hidden'). -->
 <!-- Set Body background color to 'bg-light' -->
