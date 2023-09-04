@@ -55,7 +55,7 @@
                                 
                             </li>
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle-hover text-uppercase @@rooms" href="/laravel_new/public/rooms" data-bs-display="static">
+                                <a class="nav-link dropdown-toggle-hover text-uppercase @@rooms" href="/rooms" data-bs-display="static">
                                     <span>Rooms</span>
                                     <i class="hicon hicon-thin-arrow-down dropdown-toggle-icon"></i>
                                 </a>
@@ -76,13 +76,13 @@
                                     <li><a class="dropdown-item @@tourCategories" href="tour-categories.html">Services</a></li>
                                     <li><a class="dropdown-item @@tourList" href="tour-list.html">Service list</a>
                                     </li>
-                                    <li><a class="dropdown-item @@singleTour" href="/laravel_new/public/contact">Contact Us</a></li>
+                                    <li><a class="dropdown-item @@singleTour" href="/contact">Contact Us</a></li>
                                 </ul>
                             </li>
-                            <li class="nav-item dropdown"><a class="nav-link text-uppercase @@gallery" href="/laravel_new/public/contact">About</a></li>
+                            <li class="nav-item dropdown"><a class="nav-link text-uppercase @@gallery" href="/contact">About</a></li>
                             <li class="nav-item dropdown">
                             <div class="mt-2 mt-xl-0 order-0 order-xl-1">
-                                <a href="/laravel_new/public/reservation" class="btn btn-primary">
+                                <a href="/reservation" class="btn btn-primary">
                                     <i class="hicon hicon-24hour-room-service"></i>
                                     <span>Reservation</span>
                                 </a>
@@ -553,7 +553,7 @@
                                                 <div class="col-12 col-lg-5">
                                                     <!-- Button -->
                                                     <div class="mb-3">
-                                                        <a href="/laravel_new/public/reservation" class="btn btn-primary w-100">
+                                                        <a href="/reservation" class="btn btn-primary w-100">
                                                             <i class="hicon hicon-mmb-my-booking mr-1"></i>
                                                             <span>Check Rooms</span>
                                                         </a>
@@ -632,7 +632,7 @@
                                         <span>Details</span>
                                         <i class="hicon hicon-flights-one-ways"></i>
                                     </a>
-                                    <a href="/laravel_new/public/reservation" class="btn btn-primary">
+                                    <a href="/reservation" class="btn btn-primary">
                                         <i class="hicon hicon-menu-calendar"></i>
                                         <span>Book now</span>
                                     </a>
@@ -662,7 +662,7 @@
                                         <span>Details</span>
                                         <i class="hicon hicon-flights-one-ways"></i>
                                     </a>
-                                    <a href="/laravel_new/public/reservation" class="btn btn-primary">
+                                    <a href="/reservation" class="btn btn-primary">
                                         <i class="hicon hicon-menu-calendar"></i>
                                         <span>Book now</span>
                                     </a>
@@ -692,7 +692,7 @@
                                         <span>Details</span>
                                         <i class="hicon hicon-flights-one-ways"></i>
                                     </a>
-                                    <a href="/laravel_new/public/reservation" class="btn btn-primary">
+                                    <a href="/reservation" class="btn btn-primary">
                                         <i class="hicon hicon-menu-calendar"></i>
                                         <span>Book now</span>
                                     </a>
@@ -722,7 +722,7 @@
                                         <span>Details</span>
                                         <i class="hicon hicon-flights-one-ways"></i>
                                     </a>
-                                    <a href="/laravel_new/public/reservation" class="btn btn-primary">
+                                    <a href="/reservation" class="btn btn-primary">
                                         <i class="hicon hicon-menu-calendar"></i>
                                         <span>Book now</span>
                                     </a>
@@ -752,7 +752,7 @@
                                         <span>Details</span>
                                         <i class="hicon hicon-flights-one-ways"></i>
                                     </a>
-                                    <a href="/laravel_new/public/reservation" class="btn btn-primary">
+                                    <a href="/reservation" class="btn btn-primary">
                                         <i class="hicon hicon-menu-calendar"></i>
                                         <span>Book now</span>
                                     </a>
@@ -1427,19 +1427,19 @@
                                 <div class="col-6">
                                     <ul class="nav flex-column">
                                         <li class="nav-item">
-                                            <a class="nav-link text-body link-hover-primary ps-0 pe-0" href="/laravel_new/public/rooms">Beach Resort</a>
+                                            <a class="nav-link text-body link-hover-primary ps-0 pe-0" href="/rooms">Beach Resort</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link text-body link-hover-primary ps-0 pe-0" href="/laravel_new/public/rooms">Leisure Apartment</a>
+                                            <a class="nav-link text-body link-hover-primary ps-0 pe-0" href="/rooms">Leisure Apartment</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link text-body link-hover-primary ps-0 pe-0" href="/laravel_new/public/rooms">Hotel Room</a>
+                                            <a class="nav-link text-body link-hover-primary ps-0 pe-0" href="/rooms">Hotel Room</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link text-body link-hover-primary ps-0 pe-0" href="/laravel_new/public/rooms">Booking</a>
+                                            <a class="nav-link text-body link-hover-primary ps-0 pe-0" href="/rooms">Booking</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link text-body link-hover-primary ps-0 pe-0" href="/laravel_new/public/rooms">Air</a>
+                                            <a class="nav-link text-body link-hover-primary ps-0 pe-0" href="/rooms">Air</a>
                                         </li>
                                     </ul>
                                 </div>

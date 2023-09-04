@@ -55,7 +55,7 @@
                                 
                             </li>
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle-hover text-uppercase @@rooms" href="rooms-1.html" data-bs-display="static">
+                                <a class="nav-link dropdown-toggle-hover text-uppercase @@rooms" href="/laravel_new/public/rooms" data-bs-display="static">
                                     <span>Rooms</span>
                                     <i class="hicon hicon-thin-arrow-down dropdown-toggle-icon"></i>
                                 </a>
@@ -76,13 +76,13 @@
                                     <li><a class="dropdown-item @@tourCategories" href="tour-categories.html">Services</a></li>
                                     <li><a class="dropdown-item @@tourList" href="tour-list.html">Service list</a>
                                     </li>
-                                    <li><a class="dropdown-item @@singleTour" href="single-tour.html">Contact Us</a></li>
+                                    <li><a class="dropdown-item @@singleTour" href="/laravel_new/public/contact">Contact Us</a></li>
                                 </ul>
                             </li>
-                            <li class="nav-item dropdown"><a class="nav-link text-uppercase @@gallery" href="gallery.html">About</a></li>
+                            <li class="nav-item dropdown"><a class="nav-link text-uppercase @@gallery" href="/laravel_new/public/contact">About</a></li>
                             <li class="nav-item dropdown">
                             <div class="mt-2 mt-xl-0 order-0 order-xl-1">
-                                <a href="reservation.html" class="btn btn-primary">
+                                <a href="/laravel_new/public/reservation" class="btn btn-primary">
                                     <i class="hicon hicon-24hour-room-service"></i>
                                     <span>Reservation</span>
                                 </a>

@@ -29,20 +29,20 @@
     </div>
     <!-- /Preloader -->
     <!-- Header -->
-    <header id="header" class="header transition-base fixed-top z-1030 shadow-sm bg-white" data-bs-theme="light">
+    <header id="header" class="header transition-base fixed-top z-1030  " data-bs-theme="dark">
         <nav class="navbar navbar-expand-xl fw-medium pt-5 pb-5 fs-6">
             <div class="container justify-content-end">
                 <!-- Brand -->
                 <a class="navbar-brand flex-grow-1" id="brandHeader" href="index-2.html">
-                    <img src="assets/img/logos/logo.png" srcset="./assets/img/logos/logo@2x.png 2x" class="logo" alt="">
-                    <h1 class="d-none">Bilury</h1>
+                    <img src="assets/img/logos/logo-light.png" srcset="./assets/img/Landmark/landmarkhotel_white_logo.png 2x" class="logo" alt="">
+                    <h1 class="d-none">Landmark Africa</h1>
                 </a>
                 <!-- /Brand -->
                 <!-- offcanvas Navbar -->
                 <div class="offcanvas offcanvas-navbar offcanvas-end border-start-0" tabindex="-1" id="offcanvasNavbar">
                     <!-- Offcanvas header -->
                     <div class="offcanvas-header border-bottom">
-                        <h3 class="offcanvas-title text-uppercase ff-heading" id="bdSidebarOffcanvasLabel">Bilury Hotel</h3>
+                        <h3 class="offcanvas-title text-uppercase ff-heading" id="bdSidebarOffcanvasLabel">Landmark Hotel</h3>
                         <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                     </div>
                     <!-- /Offcanvas header -->
@@ -50,48 +50,46 @@
                         <!-- Navbar nav-->
                         <ul class="navbar-nav align-items-xl-center me-xl-3 mb-3 mb-xl-0">
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle-hover text-uppercase @@home" href="index-2.html" data-bs-display="static">
+                                <a class="nav-link dropdown-toggle-hover text-uppercase active" href="index-2.html" data-bs-display="static">
                                     <span>Home</span>
                                     <i class="hicon hicon-thin-arrow-down dropdown-toggle-icon"></i>
                                 </a>
-                                <ul class="dropdown-menu mt-xl-6" data-bs-popper="static">
-                                    <li><a class="dropdown-item @@index" href="index-2.html">Home 1</a></li>
-                                    <li><a class="dropdown-item @@home2" href="home-2.html">Home 2</a></li>
-                                    <li><a class="dropdown-item @@home3" href="home-3.html">Home 3</a></li>
-                                </ul>
+                                
                             </li>
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle-hover text-uppercase @@rooms" href="rooms-1.html" data-bs-display="static">
-                                    <span>Rooms & Suites</span>
+                                <a class="nav-link dropdown-toggle-hover text-uppercase @@rooms" href="/laravel_new/public/rooms" data-bs-display="static">
+                                    <span>Rooms</span>
                                     <i class="hicon hicon-thin-arrow-down dropdown-toggle-icon"></i>
                                 </a>
-                                <ul class="dropdown-menu mt-xl-6" data-bs-popper="static">
+                                <!-- <ul class="dropdown-menu mt-xl-6" data-bs-popper="static">
                                     <li><a class="dropdown-item @@rooms1" href="rooms-1.html">Rome 1</a></li>
                                     <li><a class="dropdown-item @@rooms2" href="rooms-2.html">Rome 2</a></li>
                                     <li><a class="dropdown-item @@rooms3" href="rooms-3.html">Rome 3</a></li>
                                     <li><a class="dropdown-item @@singleRooms1" href="single-room-1.html">Single Room 1</a></li>
                                     <li><a class="dropdown-item @@singleRooms2" href="single-room-2.html">Single Room 2</a></li>
-                                </ul>
+                                </ul> -->
                             </li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle-hover text-uppercase @@tours" href="tour-list.html" data-bs-display="static">
-                                    <span>Tours</span>
+                                    <span>Services</span>
                                     <i class="hicon hicon-thin-arrow-down dropdown-toggle-icon"></i>
                                 </a>
                                 <ul class="dropdown-menu mt-xl-6" data-bs-popper="static">
-                                    <li><a class="dropdown-item @@tourCategories" href="tour-categories.html">Tour categories</a></li>
-                                    <li><a class="dropdown-item @@tourList" href="tour-list.html">Tour list</a>
+                                    <li><a class="dropdown-item @@tourCategories" href="tour-categories.html">Services</a></li>
+                                    <li><a class="dropdown-item @@tourList" href="tour-list.html">Service list</a>
                                     </li>
-                                    <li><a class="dropdown-item @@singleTour" href="single-tour.html">Single tour</a></li>
+                                    <li><a class="dropdown-item @@singleTour" href="/laravel_new/public/contact">Contact Us</a></li>
                                 </ul>
                             </li>
-                            <li class="nav-item dropdown"><a class="nav-link text-uppercase @@gallery" href="gallery.html">Gallery</a></li>
+                            <li class="nav-item dropdown"><a class="nav-link text-uppercase @@gallery" href="/laravel_new/public/contact">About</a></li>
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle-hover text-uppercase active" href="javascript:void(0);" data-bs-display="static">
-                                    <span>Pages</span>
-                                    <i class="hicon hicon-thin-arrow-down dropdown-toggle-icon"></i>
+                            <div class="mt-2 mt-xl-0 order-0 order-xl-1">
+                                <a href="/laravel_new/public/reservation" class="btn btn-primary">
+                                    <i class="hicon hicon-24hour-room-service"></i>
+                                    <span>Reservation</span>
                                 </a>
-                                <div class="dropdown-menu mega-menu dropdown-menu-end mt-xl-6" data-bs-popper="static">
+                            </div>
+                                <!-- <div class="dropdown-menu mega-menu dropdown-menu-end mt-xl-6" data-bs-popper="static">
                                     <div class="d-xl-flex flex-nowrap p-0 p-xl-3">
                                         <ul class="list-unstyled row">
                                             <li class="col-12 col-xl-4">
@@ -120,66 +118,40 @@
                                                     <li><a class="mega-menu-item @@about" href="about.html">About</a></li>
                                                     <li><a class="mega-menu-item @@news" href="news.html">News</a>
                                                     </li>
-                                                    <li><a class="mega-menu-item active" href="contact.html">Contact</a></li>
+                                                    <li><a class="mega-menu-item @@contact" href="contact.html">Contact</a></li>
                                                     <li><a class="mega-menu-item @@comingSoon" href="coming-soon.html">Coming soon</a></li>
                                                     <li><a class="mega-menu-item @@404" href="404.html">404</a>
                                                     </li>
                                                 </ul>
                                             </li>
                                         </ul>
-                                    </div>
+                                    </div> -->
                                 </div>
                             </li>
-                            <li class="nav-item">
+                            <!-- <li class="nav-item">
                                 <a class="nav-link" href="#" data-bs-toggle="offcanvas" data-bs-target="#ocRightInfo">
                                     <i class="hicon hicon-bold hicon-instant"></i>
                                 </a>
-                            </li>
+                            </li> -->
                         </ul>
                         <!-- /Navbar nav -->
                         <!-- Sub Links -->
-                        <div class="d-flex flex-column flex-xl-row align-items-xl-center small">
-                            <!-- Language & Currency -->
-                            <div class="mt-5 mt-xl-0 order-1 order-xl-0">
-                                <ul class="nav flex-row me-xl-7 mb-3 mb-xl-0">
-                                    <li class="nav-item me-4">
-                                        <a class="navbar-text d-flex align-items-center" data-bs-toggle="modal" href="#mdlLanguage">
-                                            <img src="assets/img/flags/en.svg" height="14" alt="" class="me-1">
-                                            <span>EN</span>
-                                        </a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="navbar-text d-flex" data-bs-toggle="modal" href="#mdlCurrency">
-                                            <span>USD</span>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <!-- /Language & Currency -->
-                            <!-- Reservation -->
-                            <div class="mt-2 mt-xl-0 order-0 order-xl-1">
-                                <a href="reservation.html" class="btn btn-primary">
-                                    <i class="hicon hicon-24hour-room-service"></i>
-                                    <span>Reservation</span>
-                                </a>
-                            </div>
-                            <!-- /Reservation -->
-                        </div>
+                       
                         <!-- /Sub Links -->
                     </div>
                 </div>
                 <!-- /offcanvas Navbar -->
                 <!-- Account link -->
-                <div class="ms-0 ms-xl-4">
+                <!-- <div class="ms-0 ms-xl-4">
                     <a href="#mdlLogin" data-bs-toggle="modal">
                         <img src="assets/img/avatars/na.png" srcset="./assets/img/avatars/na@2x.png 2x" class="rounded-circle bg-primary-50" width="36" height="36" alt="">
                     </a>
-                </div>
+                </div> -->
                 <!-- /Account link -->
                 <!-- Nav toggler -->
-                <button class="navbar-toggler ms-3" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                <!-- <button class="navbar-toggler ms-3" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
                     <span class="navbar-toggler-icon"></span>
-                </button>
+                </button> -->
                 <!-- /Nav toggler -->
             </div>
         </nav>
