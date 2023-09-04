@@ -3,15 +3,15 @@
 <!-- Head -->
 
 
-<!-- Mirrored from bilury.bithemer.com/rooms-3.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 31 Aug 2023 10:35:56 GMT -->
+<!-- Mirrored from landmark.bithemer.com/rooms-3.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 31 Aug 2023 10:35:56 GMT -->
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rooms 3 - Bilury - Luxury Hotel Bootstrap HTM Template</title>
-    <meta name="description" content="Bilury - Luxury Hotel Bootstrap HTM Template. The Bilury is a luxury, modern and clean hotel template. It is suitable for building Hotels, Resorts, Hostel, Homestay, websites.">
+    <title>Home - Landmark Hotel</title>
+    <meta name="description" content="Landmark - Luxury Hotel Bootstrap HTM Template. The Landmark Hotel is a luxury, modern and clean hotel template. It is suitable for building Hotels, Resorts, Hostel, Homestay, websites.">
     <meta name="keywords" content="bootstrap 5, hotel, homstay, resort, gulp, Luxury, website template, html5 template, site template, Bootstrap Template">
     <meta name="author" content="Bithemer">
-    <link href="assets/img/logos/favicon.png" rel="shortcut icon">
+    <link href="assets/img/Landmark/landmark.ico" rel="shortcut icon">
     <link href="assets/css/bundle.min.css" rel="stylesheet">
 </head>
 <!-- /Head -->
@@ -48,16 +48,16 @@
                         <!-- Navbar nav-->
                         <ul class="navbar-nav align-items-xl-center me-xl-3 mb-3 mb-xl-0">
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle-hover text-uppercase active" href="index-2.html" data-bs-display="static">
+                                <a class="nav-link dropdown-toggle-hover text-uppercase active" href="/" data-bs-display="static">
                                     <span>Home</span>
-                                    <i class="hicon hicon-thin-arrow-down dropdown-toggle-icon"></i>
+                                    <!-- <i class="hicon hicon-thin-arrow-down dropdown-toggle-icon"></i> -->
                                 </a>
                                 
                             </li>
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle-hover text-uppercase @@rooms" href="/laravel_new/public/rooms" data-bs-display="static">
+                                <a class="nav-link dropdown-toggle-hover text-uppercase @@rooms" href="/rooms" data-bs-display="static">
                                     <span>Rooms</span>
-                                    <i class="hicon hicon-thin-arrow-down dropdown-toggle-icon"></i>
+                                    <!-- <i class="hicon hicon-thin-arrow-down dropdown-toggle-icon"></i> -->
                                 </a>
                                 <!-- <ul class="dropdown-menu mt-xl-6" data-bs-popper="static">
                                     <li><a class="dropdown-item @@rooms1" href="rooms-1.html">Rome 1</a></li>
@@ -68,21 +68,16 @@
                                 </ul> -->
                             </li>
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle-hover text-uppercase @@tours" href="tour-list.html" data-bs-display="static">
+                                <a class="nav-link dropdown-toggle-hover text-uppercase @@tours" href="/rooms" data-bs-display="static">
                                     <span>Services</span>
-                                    <i class="hicon hicon-thin-arrow-down dropdown-toggle-icon"></i>
+                                    <!-- <i class="hicon hicon-thin-arrow-down dropdown-toggle-icon"></i> -->
                                 </a>
-                                <ul class="dropdown-menu mt-xl-6" data-bs-popper="static">
-                                    <li><a class="dropdown-item @@tourCategories" href="tour-categories.html">Services</a></li>
-                                    <li><a class="dropdown-item @@tourList" href="tour-list.html">Service list</a>
-                                    </li>
-                                    <li><a class="dropdown-item @@singleTour" href="/laravel_new/public/contact">Contact Us</a></li>
-                                </ul>
+                               
                             </li>
-                            <li class="nav-item dropdown"><a class="nav-link text-uppercase @@gallery" href="/laravel_new/public/contact">About</a></li>
+                            <li class="nav-item dropdown"><a class="nav-link text-uppercase @@gallery" href="/contact">About</a></li>
                             <li class="nav-item dropdown">
                             <div class="mt-2 mt-xl-0 order-0 order-xl-1">
-                                <a href="/laravel_new/public/reservation" class="btn btn-primary">
+                                <a href="/reservation" class="btn btn-primary">
                                     <i class="hicon hicon-24hour-room-service"></i>
                                     <span>Reservation</span>
                                 </a>
@@ -164,7 +159,7 @@
             <!-- Brand -->
             <div class="mb-10">
                 <a href="index-2.html">
-                    <img class="logo-light" src="assets/img/logos/logo-light.png" srcset="./assets/img/logos/logo-light@2x.png 2x" alt="Bilury Hotel" title="Bilury Hotel">
+                    <img class="logo-light" src="assets/img/Landmark/landmark.png" srcset="./assets/img/Landmark/landmark.png 2x" alt="Landmark Hotel" title="Landmark Hotel">
                 </a>
             </div>
             <!-- /Brand -->
@@ -195,7 +190,7 @@
             <div class="mb-10">
                 <h6 class="text-uppercase ls-1 ff-sub">Learn more</h6>
                 <ul class="list-unstyled">
-                    <li><a class="text-body link-hover-primary d-inline-block mb-2" href="about.html">Bilury's Story</a></li>
+                    <li><a class="text-body link-hover-primary d-inline-block mb-2" href="about.html">Landmark About</a></li>
                     <li><a class="text-body link-hover-primary d-inline-block mb-2" href="#">Terms of Use</a></li>
                     <li><a class="text-body link-hover-primary d-inline-block mb-2" href="#">Privacy Policy</a></li>
                 </ul>
@@ -410,7 +405,7 @@
         <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h4 class="modal-title text-uppercase ls-1 ff-sub" id="mdlLoginTitle">Login to Bilury</h4>
+                    <h4 class="modal-title text-uppercase ls-1 ff-sub" id="mdlLoginTitle">Login to LandmarkHotel</h4>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
@@ -517,7 +512,7 @@
         <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h4 class="modal-title text-uppercase ls-1 ff-sub" id="mdlRegisterTitle">Register for Bilury</h4>
+                    <h4 class="modal-title text-uppercase ls-1 ff-sub" id="mdlRegisterTitle">Register for Landmark Hotel</h4>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
@@ -1089,7 +1084,7 @@
                                 <div class="col-6">
                                     <ul class="nav flex-column">
                                         <li class="nav-item">
-                                            <a class="nav-link text-body link-hover-primary ps-0 pe-0" href="about.html">Bilury's Story</a>
+                                            <a class="nav-link text-body link-hover-primary ps-0 pe-0" href="about.html">About Landmark Hotel</a>
                                         </li>
                                         <li class="nav-item">
                                             <a class="nav-link text-body link-hover-primary ps-0 pe-0" href="team.html">Team</a>
@@ -1217,7 +1212,7 @@
             <div class="mt-9">
                 <div class="row">
                     <div class="col-12 col-md-6">
-                        <p>© 2023 Bilury Hotel. All rights reserved.</p>
+                        <p>© 2023 Landmark Hotel. All rights reserved.</p>
                     </div>
                     <div class="col-12 col-md-6">
                         <div class="text-start text-md-end">
@@ -1246,5 +1241,5 @@
 </body>
 
 
-<!-- Mirrored from bilury.bithemer.com/rooms-3.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 31 Aug 2023 10:35:56 GMT -->
+<!-- Mirrored from landmark.bithemer.com/rooms-3.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 31 Aug 2023 10:35:56 GMT -->
 </html>

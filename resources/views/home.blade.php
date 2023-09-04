@@ -48,16 +48,16 @@
                         <!-- Navbar nav-->
                         <ul class="navbar-nav align-items-xl-center me-xl-3 mb-3 mb-xl-0">
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle-hover text-uppercase active" href="index-2.html" data-bs-display="static">
+                                <a class="nav-link dropdown-toggle-hover text-uppercase active" href="/" data-bs-display="static">
                                     <span>Home</span>
-                                    <i class="hicon hicon-thin-arrow-down dropdown-toggle-icon"></i>
+                                    <!-- <i class="hicon hicon-thin-arrow-down dropdown-toggle-icon"></i> -->
                                 </a>
                                 
                             </li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle-hover text-uppercase @@rooms" href="/rooms" data-bs-display="static">
                                     <span>Rooms</span>
-                                    <i class="hicon hicon-thin-arrow-down dropdown-toggle-icon"></i>
+                                    <!-- <i class="hicon hicon-thin-arrow-down dropdown-toggle-icon"></i> -->
                                 </a>
                                 <!-- <ul class="dropdown-menu mt-xl-6" data-bs-popper="static">
                                     <li><a class="dropdown-item @@rooms1" href="rooms-1.html">Rome 1</a></li>
@@ -68,16 +68,11 @@
                                 </ul> -->
                             </li>
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle-hover text-uppercase @@tours" href="tour-list.html" data-bs-display="static">
+                                <a class="nav-link dropdown-toggle-hover text-uppercase @@tours" href="/rooms" data-bs-display="static">
                                     <span>Services</span>
-                                    <i class="hicon hicon-thin-arrow-down dropdown-toggle-icon"></i>
+                                    <!-- <i class="hicon hicon-thin-arrow-down dropdown-toggle-icon"></i> -->
                                 </a>
-                                <ul class="dropdown-menu mt-xl-6" data-bs-popper="static">
-                                    <li><a class="dropdown-item @@tourCategories" href="tour-categories.html">Services</a></li>
-                                    <li><a class="dropdown-item @@tourList" href="tour-list.html">Service list</a>
-                                    </li>
-                                    <li><a class="dropdown-item @@singleTour" href="/contact">Contact Us</a></li>
-                                </ul>
+                               
                             </li>
                             <li class="nav-item dropdown"><a class="nav-link text-uppercase @@gallery" href="/contact">About</a></li>
                             <li class="nav-item dropdown">
@@ -163,7 +158,7 @@
         <div class="offcanvas-body">
             <!-- Brand -->
             <div class="mb-10">
-                <a href="index-2.html">
+                <a href="/">
                     <img class="logo-light" src="assets/img/Landmark/landmarkhotel_white_logo.png" srcset="./assets/img/Landmark/landmarkhotel_white_logo.png 2x" alt="Landmark Hotel" title="Landmark Hotel">
                 </a>
             </div>
@@ -195,7 +190,7 @@
             <div class="mb-10">
                 <h6 class="text-uppercase ls-1 ff-sub">Learn more</h6>
                 <ul class="list-unstyled">
-                    <li><a class="text-body link-hover-primary d-inline-block mb-2" href="about.html">About Landmark Hote</a></li>
+                    <li><a class="text-body link-hover-primary d-inline-block mb-2" href="/contact">About Landmark Hote</a></li>
                     <li><a class="text-body link-hover-primary d-inline-block mb-2" href="#">Terms of Use</a></li>
                     <li><a class="text-body link-hover-primary d-inline-block mb-2" href="#">Privacy Policy</a></li>
                 </ul>
@@ -614,7 +609,7 @@
                     <!-- Room item -->
                     <div class="mb-5">
                         <div class="card border-0">
-                            <a href="single-room-2.html" class="d-block card-img-top">
+                            <a href="/roooms" class="d-block card-img-top">
                                 <figure class="image-hover-overlay image-hover-scale mb-0">
                                     <img src="assets/img/rooms/r11.jpg" srcset="./assets/img/rooms/r11@2x.jpg 2x" class="img-fluid w-100" alt="">
                                     <i class="hicon hicon-plus-thin image-hover-icon fs-4"></i>
@@ -628,7 +623,7 @@
                                 <h3 class="card-title mb-4 h4 text-uppercase ff-sub ls-1">Mini King Suite</h3>
                                 <p class="card-text">Area: 25 m²/323 ft², 1 King Bed / 2 Single Beds, Breakfast Included</p>
                                 <div class="d-flex align-items-center justify-content-between">
-                                    <a href="single-room-2.html" class="card-link fw-medium p-0">
+                                    <a href="/rooms" class="card-link fw-medium p-0">
                                         <span>Details</span>
                                         <i class="hicon hicon-flights-one-ways"></i>
                                     </a>
@@ -644,7 +639,7 @@
                     <!-- Room item -->
                     <div class="mb-5">
                         <div class="card border-0">
-                            <a href="single-room-2.html" class="d-block card-img-top">
+                            <a href="/rooms" class="d-block card-img-top">
                                 <figure class="image-hover-overlay image-hover-scale mb-0">
                                     <img src="assets/img/rooms/r12.jpg" srcset="./assets/img/rooms/r12@2x.jpg 2x" class="img-fluid w-100" alt="">
                                     <i class="hicon hicon-plus-thin image-hover-icon fs-4"></i>
@@ -658,7 +653,7 @@
                                 <h3 class="card-title mb-4 h4 text-uppercase ff-sub ls-1">Classic Partial View</h3>
                                 <p class="card-text">Area: 35 m²/323 ft², 1 King Bed / 2 Single Beds, Breakfast Included.</p>
                                 <div class="d-flex align-items-center justify-content-between">
-                                    <a href="single-room-2.html" class="card-link fw-medium p-0">
+                                    <a href="/rooms" class="card-link fw-medium p-0">
                                         <span>Details</span>
                                         <i class="hicon hicon-flights-one-ways"></i>
                                     </a>
@@ -674,7 +669,7 @@
                     <!-- Room item -->
                     <div class="mb-5">
                         <div class="card border-0">
-                            <a href="single-room-2.html" class="d-block card-img-top">
+                            <a href="/rooms" class="d-block card-img-top">
                                 <figure class="image-hover-overlay image-hover-scale mb-0">
                                     <img src="assets/img/rooms/r13.jpg" srcset="./assets/img/rooms/r13@2x.jpg 2x" class="img-fluid w-100" alt="">
                                     <i class="hicon hicon-plus-thin image-hover-icon fs-4"></i>
@@ -688,7 +683,7 @@
                                 <h3 class="card-title mb-4 h4 text-uppercase ff-sub ls-1">Classic City View</h3>
                                 <p class="card-text">Area: 25 m²/323 ft², 1 King Bed / 2 Single Beds, Breakfast Included. </p>
                                 <div class="d-flex align-items-center justify-content-between">
-                                    <a href="single-room-2.html" class="card-link fw-medium p-0">
+                                    <a href="/rooms" class="card-link fw-medium p-0">
                                         <span>Details</span>
                                         <i class="hicon hicon-flights-one-ways"></i>
                                     </a>
@@ -704,7 +699,7 @@
                     <!-- Room item -->
                     <div class="mb-5">
                         <div class="card border-0">
-                            <a href="single-room-2.html" class="d-block card-img-top">
+                            <a href="/rooms" class="d-block card-img-top">
                                 <figure class="image-hover-overlay image-hover-scale mb-0">
                                     <img src="assets/img/rooms/r14.jpg" srcset="./assets/img/rooms/r14@2x.jpg 2x" class="img-fluid w-100" alt="">
                                     <i class="hicon hicon-plus-thin image-hover-icon fs-4"></i>
@@ -718,7 +713,7 @@
                                 <h3 class="card-title mb-4 h4 text-uppercase ff-sub ls-1">Executive Suite</h3>
                                 <p class="card-text">Area: 28 m²/323 ft², 1 King Bed / 2 Single Beds, Breakfast Included.</p>
                                 <div class="d-flex align-items-center justify-content-between">
-                                    <a href="single-room-2.html" class="card-link fw-medium p-0">
+                                    <a href="/rooms" class="card-link fw-medium p-0">
                                         <span>Details</span>
                                         <i class="hicon hicon-flights-one-ways"></i>
                                     </a>
@@ -734,7 +729,7 @@
                     <!-- Room item -->
                     <div class="mb-5">
                         <div class="card border-0">
-                            <a href="single-room-2.html" class="d-block card-img-top">
+                            <a href="/rooms" class="d-block card-img-top">
                                 <figure class="image-hover-overlay image-hover-scale mb-0">
                                     <img src="assets/img/rooms/r15.jpg" srcset="./assets/img/rooms/r15@2x.jpg 2x" class="img-fluid w-100" alt="">
                                     <i class="hicon hicon-plus-thin image-hover-icon fs-4"></i>
@@ -748,7 +743,7 @@
                                 <h3 class="card-title mb-4 h4 text-uppercase ff-sub ls-1">Baeach Room</h3>
                                 <p class="card-text">Area: 28 m²/323 ft², 1 King Bed / 2 Single Beds, Breakfast Included.</p>
                                 <div class="d-flex align-items-center justify-content-between">
-                                    <a href="single-room-2.html" class="card-link fw-medium p-0">
+                                    <a href="/rooms" class="card-link fw-medium p-0">
                                         <span>Details</span>
                                         <i class="hicon hicon-flights-one-ways"></i>
                                     </a>
@@ -888,7 +883,7 @@
                         <div class="card border-0 shadow-sm">
                             <div class="row g-0">
                                 <div class="col-12 col-xl-6 col-lg-4 col-md-6">
-                                    <a href="restaurant.html">
+                                    <a href="/reservation">
                                         <figure class="image-hover-scale image-hover-overlay rounded mb-0">
                                             <img src="assets/img/services/s4.jpg" srcset="./assets/img/services/s4@2x.jpg 2x" class="img-fluid w-100" alt="">
                                             <i class="hicon hicon-plus-thin image-hover-icon fs-4"></i>
@@ -899,7 +894,7 @@
                                     <div class="card-body">
                                         <h3 class="card-title h6 text-uppercase ff-sub ls-1">Restaurant & bar</h3>
                                         <p class="card-text">Vis ei tation iisque suscipit, vim id tota dolores hendrerit.</p>
-                                        <a href="restaurant.html" class="card-link fw-medium"> Read more <i class="hicon hicon-flights-one-ways"></i>
+                                        <a href="/reservation" class="card-link fw-medium"> Read more <i class="hicon hicon-flights-one-ways"></i>
                                         </a>
                                     </div>
                                 </div>
@@ -912,7 +907,7 @@
                         <div class="card border-0 shadow-sm">
                             <div class="row g-0">
                                 <div class="col-12 col-xl-6 col-lg-4 col-md-6">
-                                    <a href="meetings-events.html">
+                                    <a href="/reservation">
                                         <figure class="image-hover-scale image-hover-overlay rounded mb-0">
                                             <img src="assets/img/services/s3.jpg" srcset="./assets/img/services/s3@2x.jpg 2x" class="img-fluid w-100" alt="">
                                             <i class="hicon hicon-plus-thin image-hover-icon fs-4"></i>
@@ -923,7 +918,7 @@
                                     <div class="card-body">
                                         <h3 class="card-title h6 text-uppercase ff-sub ls-1">Meetings & events</h3>
                                         <p class="card-text">Lorem ipsum dolor sit amet, tota vis constituto neglegentur.</p>
-                                        <a href="meetings-events.html" class="card-link fw-medium"> Read more <i class="hicon hicon-flights-one-ways"></i>
+                                        <a href="/reservation" class="card-link fw-medium"> Read more <i class="hicon hicon-flights-one-ways"></i>
                                         </a>
                                     </div>
                                 </div>
@@ -939,12 +934,12 @@
                                     <div class="card-body">
                                         <h3 class="card-title h6 text-uppercase ff-sub ls-1">Booking Tours</h3>
                                         <p class="card-text">Pri ad deserunt percipi ullam corper, mel dicam constitu.</p>
-                                        <a href="tour-categories.html" class="card-link fw-medium"> Read more <i class="hicon hicon-flights-one-ways"></i>
+                                        <a href="/contact" class="card-link fw-medium"> Read more <i class="hicon hicon-flights-one-ways"></i>
                                         </a>
                                     </div>
                                 </div>
                                 <div class="col-12 col-xl-6 col-lg-4 col-md-6">
-                                    <a href="tour-categories.html">
+                                    <a href="/contact">
                                         <figure class="image-hover-scale image-hover-overlay rounded mb-0">
                                             <img src="assets/img/services/s2.jpg" srcset="./assets/img/services/s2@2x.jpg 2x" class="img-fluid w-100" alt="">
                                             <i class="hicon hicon-plus-thin image-hover-icon fs-4"></i>
@@ -963,7 +958,7 @@
                                     <div class="card-body">
                                         <h3 class="card-title h6 text-uppercase ff-sub ls-1">Airport Transfers</h3>
                                         <p class="card-text">Ne labitur persecu ius, in tale laoreet mentit pri, laoreet.</p>
-                                        <a href="airport-transfers.html" class="card-link fw-medium"> Read more <i class="hicon hicon-flights-one-ways"></i>
+                                        <a href="/contact" class="card-link fw-medium"> Read more <i class="hicon hicon-flights-one-ways"></i>
                                         </a>
                                     </div>
                                 </div>

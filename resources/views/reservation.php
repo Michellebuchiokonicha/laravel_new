@@ -27,12 +27,12 @@
     </div>
     <!-- /Preloader -->
     <!-- Header -->
-    <header id="header" class="header transition-base fixed-top z-1030  " data-bs-theme="dark">
+    <header id="header" class="header transition-base fixed-top z-1030  ">
         <nav class="navbar navbar-expand-xl fw-medium pt-5 pb-5 fs-6">
             <div class="container justify-content-end">
                 <!-- Brand -->
                 <a class="navbar-brand flex-grow-1" id="brandHeader" href="index-2.html">
-                    <img src="assets/img/logos/logo-light.png" srcset="./assets/img/Landmark/landmarkhotel_white_logo.png 2x" class="logo" alt="">
+                    <img src="assets/img/Landmark/landmark.png" srcset="./assets/img/Landmark/landmark.png 2x" class="logo" alt="">
                     <h1 class="d-none">Landmark Africa</h1>
                 </a>
                 <!-- /Brand -->
@@ -48,16 +48,16 @@
                         <!-- Navbar nav-->
                         <ul class="navbar-nav align-items-xl-center me-xl-3 mb-3 mb-xl-0">
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle-hover text-uppercase active" href="index-2.html" data-bs-display="static">
+                                <a class="nav-link dropdown-toggle-hover text-uppercase active" href="/" data-bs-display="static">
                                     <span>Home</span>
-                                    <i class="hicon hicon-thin-arrow-down dropdown-toggle-icon"></i>
+                                    <!-- <i class="hicon hicon-thin-arrow-down dropdown-toggle-icon"></i> -->
                                 </a>
                                 
                             </li>
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle-hover text-uppercase @@rooms" href="/laravel_new/public/rooms" data-bs-display="static">
+                                <a class="nav-link dropdown-toggle-hover text-uppercase @@rooms" href="/rooms" data-bs-display="static">
                                     <span>Rooms</span>
-                                    <i class="hicon hicon-thin-arrow-down dropdown-toggle-icon"></i>
+                                    <!-- <i class="hicon hicon-thin-arrow-down dropdown-toggle-icon"></i> -->
                                 </a>
                                 <!-- <ul class="dropdown-menu mt-xl-6" data-bs-popper="static">
                                     <li><a class="dropdown-item @@rooms1" href="rooms-1.html">Rome 1</a></li>
@@ -68,21 +68,16 @@
                                 </ul> -->
                             </li>
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle-hover text-uppercase @@tours" href="tour-list.html" data-bs-display="static">
+                                <a class="nav-link dropdown-toggle-hover text-uppercase @@tours" href="/rooms" data-bs-display="static">
                                     <span>Services</span>
-                                    <i class="hicon hicon-thin-arrow-down dropdown-toggle-icon"></i>
+                                    <!-- <i class="hicon hicon-thin-arrow-down dropdown-toggle-icon"></i> -->
                                 </a>
-                                <ul class="dropdown-menu mt-xl-6" data-bs-popper="static">
-                                    <li><a class="dropdown-item @@tourCategories" href="tour-categories.html">Services</a></li>
-                                    <li><a class="dropdown-item @@tourList" href="tour-list.html">Service list</a>
-                                    </li>
-                                    <li><a class="dropdown-item @@singleTour" href="/laravel_new/public/contact">Contact Us</a></li>
-                                </ul>
+                               
                             </li>
-                            <li class="nav-item dropdown"><a class="nav-link text-uppercase @@gallery" href="/laravel_new/public/contact">About</a></li>
+                            <li class="nav-item dropdown"><a class="nav-link text-uppercase @@gallery" href="/contact">About</a></li>
                             <li class="nav-item dropdown">
                             <div class="mt-2 mt-xl-0 order-0 order-xl-1">
-                                <a href="/laravel_new/public/reservation" class="btn btn-primary">
+                                <a href="/reservation" class="btn btn-primary">
                                     <i class="hicon hicon-24hour-room-service"></i>
                                     <span>Reservation</span>
                                 </a>
@@ -156,7 +151,7 @@
     </header>
     <!-- /Header -->
     <!-- Right slider info -->
-    <div class="offcanvas offcanvas-end border-start-0 text-body-tertiary" tabindex="-1" id="ocRightInfo" aria-labelledby="ocRightInfo" data-bs-theme="dark">
+    <div class="offcanvas offcanvas-end border-start-0 text-body-tertiary" tabindex="-1" id="ocRightInfo" aria-labelledby="ocRightInfo" >
         <div class="offcanvas-header">
             <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
@@ -164,7 +159,7 @@
             <!-- Brand -->
             <div class="mb-10">
                 <a href="index-2.html">
-                    <img class="logo-light" src="assets/img/logos/logo-light.png" srcset="./assets/img/logos/logo-light@2x.png 2x" alt="Landmark Hotel" title="Landmark Hotel">
+                    <img class="logo-light" src="assets/img/Landmark/landmark.png" srcset="./assets/img/Landmark/landmark.png 2x" alt="Landmark Hotel" title="Landmark Hotel">
                 </a>
             </div>
             <!-- /Brand -->
@@ -997,42 +992,42 @@
                     <div class="col-6 col-lg-2 col-md-4">
                         <a href="#">
                             <figure>
-                                <img class="img-fluid" src="assets/img/logos/l1.png" srcset="./assets/img/landmark/landmarkhotel_logo.png 2x" alt="">
+                                <img class="img-fluid" src="assets/img/logos/l1.png" srcset="./assets/img/landmark/landmark.png 2x" alt="">
                             </figure>
                         </a>
                     </div>
                     <div class="col-6 col-lg-2 col-md-4">
                         <a href="#">
                             <figure>
-                                <img class="img-fluid" src="assets/img/logos/l2.png" srcset="./assets/img/landmark/landmarkhotel_logo.png 2x" alt="">
+                                <img class="img-fluid" src="assets/img/logos/l2.png" srcset="./assets/img/landmark/landmark.png 2x" alt="">
                             </figure>
                         </a>
                     </div>
                     <div class="col-6 col-lg-2 col-md-4">
                         <a href="#">
                             <figure>
-                                <img class="img-fluid" src="assets/img/logos/l3.png" srcset="./assets/img/landmark/landmarkhotel_logo.png 2x" alt="">
+                                <img class="img-fluid" src="assets/img/Landmark/landmark.png" srcset="./assets/img/landmark.png 2x" alt="">
                             </figure>
                         </a>
                     </div>
                     <div class="col-6 col-lg-2 col-md-4">
                         <a href="#">
                             <figure>
-                                <img class="img-fluid" src="assets/img/logos/l4.png" srcset="./assets/img/landmark/landmarkhotel_logo.png 2x" alt="">
+                                <img class="img-fluid" src="assets/img/landmark/landmark.png" srcset="./assets/img/landmark/landmark.png 2x" alt="">
                             </figure>
                         </a>
                     </div>
                     <div class="col-6 col-lg-2 col-md-4">
                         <a href="#">
                             <figure>
-                                <img class="img-fluid" src="assets/img/logos/l5.png" srcset="./assets/img/landmark/landmarkhotel_logo.png 2x" alt="">
+                                <img class="img-fluid" src="assets/img/logos/l5.png" srcset="./assets/img/landmark/landmark.png 2x" alt="">
                             </figure>
                         </a>
                     </div>
                     <div class="col-6 col-lg-2 col-md-4">
                         <a href="#">
                             <figure>
-                                <img class="img-fluid" src="assets/img/logos/l6.png" srcset="./assets/img/landmark/landmarkhotel_logo.png 2x" alt="">
+                                <img class="img-fluid" src="assets/img/logos/l6.png" srcset="./assets/img/landmark/landmark.png 2x" alt="">
                             </figure>
                         </a>
                     </div>
@@ -1047,7 +1042,7 @@
                         <div class="mb-8">
                             <a href="index-2.html" class="d-inline-block">
                                 <figure>
-                                    <img class="img-fluid" src="assets/img/logos/footer-light.png" srcset="./assets/img/landmark/landmarkhotel_white_logo.png 2x" alt="">
+                                    <img class="img-fluid" src="assets/img/logos/footer-light.png" srcset="./assets/img/landmark/landmark.png 2x" alt="">
                                 </figure>
                             </a>
                             <p>
