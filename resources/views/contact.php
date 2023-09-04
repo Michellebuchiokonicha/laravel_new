@@ -7,7 +7,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact - Bilury - Luxury Hotel Bootstrap HTM Template</title>
+    <title>Contact - Landmark - Luxury Hotel Bootstrap HTM Template</title>
     <meta name="description" content="Bilury - Luxury Hotel Bootstrap HTM Template. The Bilury is a luxury, modern and clean hotel template. It is suitable for building Hotels, Resorts, Hostel, Homestay, websites.">
     <meta name="keywords" content="bootstrap 5, hotel, homstay, resort, gulp, Luxury, website template, html5 template, site template, Bootstrap Template">
     <meta name="author" content="Bithemer">
