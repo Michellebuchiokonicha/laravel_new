@@ -2,6 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 
+use App\Http\Livewire\Reservation\StepOne;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -19,9 +21,19 @@ Route::get('/', function () {
 Route::get('/reservation', function () {
     return view('reservation');
 });
+Route::get('/stepOne', StepOne::class)->name('stepOne');
 Route::get('/contact', function () {
     return view('contact');
 });
 Route::get('/rooms', function () {
     return view('rooms');
+});
+Route::get('/info', function () {
+    return view('your-info');
+});
+Route::get('/payment', function () {
+    return view('payment');
+});
+Route::get('/complete', function () {
+    return view('complete');
 });

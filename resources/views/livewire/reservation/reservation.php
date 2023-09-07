@@ -30,7 +30,6 @@
     <header id="header" class="header transition-base fixed-top z-1030  ">
         <nav class="navbar navbar-expand-xl fw-medium pt-5 pb-5 fs-6">
             <div class="container justify-content-end">
-                <!-- Brand -->
                 <a class="navbar-brand flex-grow-1" id="brandHeader" href="index-2.html">
                     <img src="assets/img/Landmark/landmark.png" srcset="./assets/img/Landmark/landmark.png 2x" class="logo" alt="">
                     <h1 class="d-none">Landmark Africa</h1>
@@ -967,7 +966,7 @@
                                     <hr>
                                     <!-- Next step -->
                                     <div class="text-end pt-2 pb-2">
-                                        <a class="btn btn-primary" href="your-info.html">
+                                        <a class="btn btn-primary" href="/info">
                                             <span>Next step</span>
                                             <i class="hicon hicon-flights-one-ways"></i>
                                         </a>
