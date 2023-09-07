@@ -32,7 +32,7 @@
             <div class="container justify-content-end">
                 <!-- Brand -->
                 <a class="navbar-brand flex-grow-1" id="brandHeader" href="index-2.html">
-                    <img src="assets/img/logos/logo-light.png" srcset="./assets/img/Landmark/landmarkhotel_white_logo.png 2x" class="logo" alt="">
+                    <img src="assets/img/Landmark/landmarkhotel_white_logo.png" srcset="./assets/img/Landmark/landmarkhotel_white_logo.png 2x" class="logo" alt="">
                     <h1 class="d-none">Landmark Africa</h1>
                 </a>
                 <!-- /Brand -->
@@ -995,42 +995,42 @@
                     <div class="col-6 col-lg-2 col-md-4">
                         <a href="#">
                             <figure>
-                                <img class="img-fluid" src="assets/img/logos/l1.png" srcset="./assets/img/logos/l1@2x.png 2x" alt="">
+                                <img class="img-fluid" src="assets/img/Landmark/landmark.png" srcset="./assets/img/Landmark/landmark.png 2x" alt="">
                             </figure>
                         </a>
                     </div>
                     <div class="col-6 col-lg-2 col-md-4">
                         <a href="#">
                             <figure>
-                                <img class="img-fluid" src="assets/img/logos/l2.png" srcset="./assets/img/logos/l2@2x.png 2x" alt="">
+                                <img class="img-fluid" src="assets/img/Landmark/landmark.png" srcset="./assets/img/Landmark/landmark.png 2x" alt="">
                             </figure>
                         </a>
                     </div>
                     <div class="col-6 col-lg-2 col-md-4">
                         <a href="#">
                             <figure>
-                                <img class="img-fluid" src="assets/img/logos/l3.png" srcset="./assets/img/logos/l3@2x.png 2x" alt="">
+                                <img class="img-fluid" src="assets/img/Landmark/landmark.png" srcset="./assets/img/Landmark/landmark.png 2x" alt="">
                             </figure>
                         </a>
                     </div>
                     <div class="col-6 col-lg-2 col-md-4">
                         <a href="#">
                             <figure>
-                                <img class="img-fluid" src="assets/img/logos/l4.png" srcset="./assets/img/logos/l4@2x.png 2x" alt="">
+                                <img class="img-fluid" src="assets/img/Landmark/landmark.png" srcset="./assets/img/Landmark/landmark.png 2x" alt="">
                             </figure>
                         </a>
                     </div>
                     <div class="col-6 col-lg-2 col-md-4">
                         <a href="#">
                             <figure>
-                                <img class="img-fluid" src="assets/img/logos/l5.png" srcset="./assets/img/logos/l5@2x.png 2x" alt="">
+                                <img class="img-fluid" src="assets/img/Landmark/landmark.png" srcset="./assets/img/Landmark/landmark.png 2x" alt="">
                             </figure>
                         </a>
                     </div>
                     <div class="col-6 col-lg-2 col-md-4">
                         <a href="#">
                             <figure>
-                                <img class="img-fluid" src="assets/img/logos/l6.png" srcset="./assets/img/logos/l6@2x.png 2x" alt="">
+                                <img class="img-fluid" src="assets/img/Landmark/landmark.png" srcset="./assets/img/Landmark/landmark.png 2x" alt="">
                             </figure>
                         </a>
                     </div>
@@ -1045,7 +1045,7 @@
                         <div class="mb-8">
                             <a href="index-2.html" class="d-inline-block">
                                 <figure>
-                                    <img class="img-fluid" src="assets/img/logos/footer-light.png" srcset="./assets/img/logos/footer-light@2x.png 2x" alt="">
+                                    <img class="img-fluid" src="assets/img/Landmark/landmark.png" srcset="./assets/img/Landmark/landmark.png 2x" alt="">
                                 </figure>
                             </a>
                             <p>
