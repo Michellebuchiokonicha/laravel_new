@@ -18,7 +18,7 @@ class StepOne extends BaseComponent
     public function render()
     {
         Session::get('selectedDate', $this->dateFilter);
-        dd('SelectedDate');
+        // dd('SelectedDate');
         return view('livewire.reservation.step-one');
     }
 }

@@ -479,7 +479,7 @@
                         <!-- Check date -->
                         <div class="mb-6">
                             <div class="row g-2">
-                                <div class="col-12 col-lg-5">
+                                <div class="col-12 col-lg-9">
                                     <!-- Input date -->
                                     <div class="mb-3">
                                         <div class="control-icon">
@@ -489,55 +489,10 @@
                                     </div>
                                     <!-- /Input date -->
                                 </div>
-                                <div class="col-12 col-lg-7">
+                                <div class="col-12 col-lg-3">
                                     <div class="row g-2">
-                                        <div class="col-12 col-lg-7">
-                                            <!-- Input number of guests -->
-                                            <div class="mb-3">
-                                                <div class="control-icon">
-                                                    <label class="hicon hicon-travelers cursor-pointer" for="btnCheckGuest"></label>
-                                                    <div class="dropdown" data-total-guest="">
-                                                        <button class="form-select w-100 text-start shadow-sm" id="btnCheckGuest" data-bs-auto-close="outside" type="button" data-bs-display="static" data-bs-toggle="dropdown" aria-expanded="false">
-                                                            <span class="text-nowrap">
-                                                                <span data-total-adults=""></span>, <span data-total-children=""></span>
-                                                            </span>
-                                                        </button>
-                                                        <ul class="dropdown-menu animate slideIn p-4">
-                                                            <li>
-                                                                <div class="mb-3">
-                                                                    <label for="txtCheckAdults" class="form-label">Adults</label>
-                                                                    <div class="input-group shadow-sm">
-                                                                        <button class="btn btn-outline-light" type="button" data-minus-adults="">
-                                                                            <i class="hicon hicon-minus-thin small"></i>
-                                                                        </button>
-                                                                        <input type="text" class="form-control text-center" placeholder="Adults" value="1" aria-label="Adults" id="txtCheckAdults" data-adults-max="10" data-input-adults="">
-                                                                        <button class="btn btn-outline-light" type="button" data-plus-adults="">
-                                                                            <i class="hicon hicon-plus-thin small"></i>
-                                                                        </button>
-                                                                    </div>
-                                                                </div>
-                                                            </li>
-                                                            <li>
-                                                                <div class="mb-3">
-                                                                    <label for="txtCheckChildren" class="form-label">Children</label>
-                                                                    <div class="input-group shadow-sm">
-                                                                        <button class="btn btn-outline-light" type="button" data-minus-children="">
-                                                                            <i class="hicon hicon-minus-thin small"></i>
-                                                                        </button>
-                                                                        <input type="text" class="form-control text-center" placeholder="Children" value="0" aria-label="Children" id="txtCheckChildren" data-children-max="20" data-input-children="">
-                                                                        <button class="btn btn-outline-light" type="button" data-plus-children="">
-                                                                            <i class="hicon hicon-plus-thin small"></i>
-                                                                        </button>
-                                                                    </div>
-                                                                </div>
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- /Input number of guests -->
-                                        </div>
-                                        <div class="col-12 col-lg-5">
+                                        
+                                        <!-- <div class="col-12 col-lg-5"> -->
                                             <!-- Button -->
                                             <div class="mb-3">
                                                 <a href="/reservation" class="btn btn-primary w-100 shadow-sm">
@@ -546,7 +501,7 @@
                                                 </a>
                                             </div>
                                             <!-- /Button -->
-                                        </div>
+                                        <!-- </div> -->
                                     </div>
                                 </div>
                             </div>
