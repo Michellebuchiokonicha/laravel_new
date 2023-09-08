@@ -20,7 +20,7 @@
             </div>
             <!-- /Video -->
             <!-- Check rooms -->
-            <livewire:date-range-selector />
+            <livewire:check-availability-date />
             <!-- /Check rooms -->
         </section>
         <!-- /Hero carousel -->

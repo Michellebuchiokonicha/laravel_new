@@ -30,55 +30,50 @@
         <section id="reservation" class="pt-10 pb-10">
             <div class="container">
                 
-            <livewire:date-range-selector />
+            <livewire:check-availability-date />
 
                 <div class="row g-0">
                     <div class="col-12 col-xl-9 pe-xl-8" data-cue="fadeIn">
-                        <!-- Check date -->
-                        <div class="mb-6">
+                        
+                        <!-- <div class="mb-6">
                             <div class="row g-2">
                                 <div class="col-12 col-lg-9">
-                                    <!-- Input date -->
+                                    
                                     <div class="mb-9">
                                         <div class="control-icon">
                                             <label class="hicon hicon-menu-calendar cursor-pointer" for="txtCheckDate"></label>
                                             <input wire:model="dateFilter" id="txtCheckDate" type="text" class="check-date form-control shadow-sm cursor-pointer" value="Mar 19 2023 - Mar 21 2023" placeholder="" readonly>
                                         </div>
                                     </div>
-                                    <!-- /Input date -->
+                                    
                                 </div>
                                 <div class="col-12 col-lg-3">
                                     <div class="row g-2">
-                                        <!-- <div class="col-12 col-lg-3"> -->
-                                
-                                        <!-- </div> -->
-                                        <!-- <div class="col-12 col-lg-5"> -->
-                                            <!-- Button -->
+                                        
                                             <div class="mb-5">
                                                 <a href="/step-one" class="btn btn-primary w-100 shadow-sm">
                                                     <i class="hicon hicon-mmb-my-booking mr-1"></i>
                                                     <span>Check Rooms</span>
                                                 </a>
                                             </div>
-                                            <!-- /Button -->
-                                        <!-- </div> -->
+                                          
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <!-- /Check date -->
+                        </div> -->
+                        
                         <div class="mb-8">
-                            <!-- Room -->
+                            
                             <div class="card card-selected mb-5 shadow-sm">
                                 <div class="card-body pb-2">
-                                    <!-- Room name -->
+                                  
                                     <h3 class="card-title h4">
                                         <a href="single-room-1.html" target="_blank" class="text-dark link-hover-primary text-uppercase ff-sub ls-1">Mini King Suite</a>
                                     </h3>
-                                    <!-- /Room name -->
+                                    
                                     <div class="row g-0">
                                         <div class="col-12 col-lg-4 col-md-6">
-                                            <!-- Room image -->
+                                           
                                             <div class="pe-0 pe-md-5 mb-5">
                                                 <a href="single-room-1.html">
                                                     <figure class="image-hover-scale image-hover-overlay rounded overflow-hidden mb-0">
@@ -87,10 +82,10 @@
                                                     </figure>
                                                 </a>
                                             </div>
-                                            <!-- /Room image -->
+                                            
                                         </div>
                                         <div class="col-12 col-lg-6 col-md-12 order-2 order-lg-2 order-md-3">
-                                            <!-- Room info -->
+                                           
                                             <div class="small">
                                                 <div class="mb-4">
                                                     <h4 class="mb-1 h6 fw-semibold">Featured Amenities</h4>
