@@ -29,6 +29,7 @@
         <!-- Reservation -->
         <section id="reservation" class="pt-10 pb-10">
             <div class="container">
+                
             <livewire:date-range-selector />
 
                 <div class="row g-0">
@@ -41,7 +42,7 @@
                                     <div class="mb-9">
                                         <div class="control-icon">
                                             <label class="hicon hicon-menu-calendar cursor-pointer" for="txtCheckDate"></label>
-                                            <input wire:model="message" id="txtCheckDate" type="text" class="check-date form-control shadow-sm cursor-pointer" value="Mar 19 2023 - Mar 21 2023" placeholder="" readonly>
+                                            <input wire:model="dateFilter" id="txtCheckDate" type="text" class="check-date form-control shadow-sm cursor-pointer" value="Mar 19 2023 - Mar 21 2023" placeholder="" readonly>
                                         </div>
                                     </div>
                                     <!-- /Input date -->
@@ -54,7 +55,7 @@
                                         <!-- <div class="col-12 col-lg-5"> -->
                                             <!-- Button -->
                                             <div class="mb-5">
-                                                <a href="/reservation" class="btn btn-primary w-100 shadow-sm">
+                                                <a href="/step-one" class="btn btn-primary w-100 shadow-sm">
                                                     <i class="hicon hicon-mmb-my-booking mr-1"></i>
                                                     <span>Check Rooms</span>
                                                 </a>

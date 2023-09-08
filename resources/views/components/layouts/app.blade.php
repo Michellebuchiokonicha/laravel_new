@@ -21,8 +21,8 @@
         <nav class="navbar navbar-expand-xl fw-medium pt-5 pb-5 fs-6">
             <div class="container justify-content-end">
                 <!-- Brand -->
-                <a class="navbar-brand flex-grow-1" id="brandHeader" href="./index.html">
-                    <img src="./assets/img/logos/logo.png" srcset="./assets/img/logos/logo@2x.png 2x" class="logo" alt="">
+                <a class="navbar-brand flex-grow-1" id="brandHeader" href="./">
+                    <img src="https://www.landmarkhotel.ng/assets/img/landmarkhotel_logo.png"width='200' srcset="https://www.landmarkhotel.ng/assets/img/landmarkhotel_logo.png 2x" class="logo" alt="">
                     <h1 class="d-none">Landmark</h1>
                 </a>
                 <!-- /Brand -->

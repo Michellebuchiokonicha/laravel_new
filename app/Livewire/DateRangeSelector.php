@@ -5,10 +5,10 @@ namespace App\Livewire;
 use Livewire\Component;
 use illuminate\Support\Facades\Session;
 
-class DateRangeSelector extends Component
+class DateRangeSelector extends BaseComponent
 {
-    public $startDate;
-    public $endDate;
+    public $dateFilter;
+
 
     public function updatedStartDate()
     {
@@ -16,10 +16,11 @@ class DateRangeSelector extends Component
     }
     public function updatedEndDate()
     {
-        Session::put('selectedEndDate', $this->endDate);
+        Session::put('selectedDate', $this->endDate);
     }
     public function render()
     {
+        Session::put('selectedDate', $this->dateFilter);
         return view('livewire.date-range-selector');
     }
 }
