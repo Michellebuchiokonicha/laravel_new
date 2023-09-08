@@ -487,7 +487,7 @@
                             <div class="card card-check-room border-0">
                                 <div class="card-body ps-3 pe-3 ps-sm-6 pe-sm-6 pb-3">
                                     <div class="row g-2">
-                                        <div class="col-12 col-lg-5">
+                                        <div class="col-12 col-lg-9">
                                             <!-- Input date -->
                                             <div class="mb-3">
                                                 <div class="control-icon">
@@ -497,14 +497,10 @@
                                             </div>
                                             <!-- /Input date -->
                                         </div>
-                                        <div class="col-12 col-lg-7">
+                                        <div class="col-12 col-lg-3">
                                             <div class="row g-2">
-                                                <div class="col-12 col-lg-7">
-                                                    <!-- Input number of guests -->
-                                                   
-                                                    <!-- /Input number of guests -->
-                                                </div>
-                                                <div class="col-12 col-lg-5">
+                                               
+                                                <!-- <div class="col-12 col-lg-5"> -->
                                                     <!-- Button -->
                                                     <div class="mb-3">
                                                         <a href="/reservation" class="btn btn-primary w-100">
@@ -513,7 +509,7 @@
                                                         </a>
                                                     </div>
                                                     <!-- /Button -->
-                                                </div>
+                                                <!-- </div> -->
                                             </div>
                                         </div>
                                     </div>
