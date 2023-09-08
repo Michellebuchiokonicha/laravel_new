@@ -1180,69 +1180,41 @@
                         <div class="col-12 col-xl-4 col-lg-5">
                             <div class="card border-0 bg-primary-50 shadow-sm" data-bs-theme="light">
                                 <div class="card-body">
-                                    <form class="needs-validation" method="post" novalidate="" action="https://bilury.bithemer.com/reservation.html">
+                            <form class="needs-validation" method="post" novalidate="" action="/step-one">
                                         <!-- Heading -->
                                         <h3 class="text-dark text-uppercase h4 ff-sub ls-1">Reservation</h3>
                                         <!-- /Heading -->
                                         <!-- Input date -->
-                                        <div class="mb-5">
-                                            <div class="control-icon">
-                                                <label class="hicon hicon-menu-calendar cursor-pointer" for="txtCheckDate1"></label>
-                                                <input id="txtCheckDate1" type="text" class="check-date datepicker-right form-control shadow-sm cursor-pointer" value="Mar 19 2023 - Mar 21 2023" placeholder="" readonly>
-                                            </div>
+                                <div class="col-12 col-lg-10">
+                                    <!-- Input date -->
+                                    <div class="mb-5">
+                                        <div class="control-icon">
+                                            <label class="hicon hicon-menu-calendar cursor-pointer" for="txtCheckDate"></label>
+                                            <input id="txtCheckDate" type="text" class="check-date form-control shadow-sm cursor-pointer" value="Mar 19 2023 - Mar 21 2023" placeholder="" readonly>
                                         </div>
+                                    </div>
+                                    <!-- /Input date -->
+                                </div>
                                         <!-- /Input date -->
-                                        <!-- Input number of guests -->
-                                        <div class="mb-5">
-                                            <div class="control-icon">
-                                                <label class="hicon hicon-travelers cursor-pointer" for="btnCheckGuest1"></label>
-                                                <div class="dropdown" data-total-guest="">
-                                                    <button class="form-select w-100 text-start shadow-sm" id="btnCheckGuest1" data-bs-auto-close="outside" type="button" data-bs-display="static" data-bs-toggle="dropdown" aria-expanded="false">
-                                                        <span class="text-nowrap">
-                                                            <span data-total-adults=""></span>, <span data-total-children=""></span>
-                                                        </span>
-                                                    </button>
-                                                    <ul class="dropdown-menu animate slideIn p-4">
-                                                        <li>
-                                                            <div class="mb-3">
-                                                                <label for="txtCheckAdults1" class="form-label">Adults</label>
-                                                                <div class="input-group shadow-sm">
-                                                                    <button class="btn btn-outline-light" type="button" data-minus-adults="">
-                                                                        <i class="hicon hicon-minus-thin small"></i>
-                                                                    </button>
-                                                                    <input type="text" class="form-control text-center" placeholder="Adults" value="1" aria-label="Adults" id="txtCheckAdults1" data-adults-max="5" data-input-adults="">
-                                                                    <button class="btn btn-outline-light" type="button" data-plus-adults="">
-                                                                        <i class="hicon hicon-plus-thin small"></i>
-                                                                    </button>
-                                                                </div>
-                                                            </div>
-                                                        </li>
-                                                        <li>
-                                                            <div class="mb-3">
-                                                                <label for="txtCheckChildren1" class="form-label">Children</label>
-                                                                <div class="input-group shadow-sm">
-                                                                    <button class="btn btn-outline-light" type="button" data-minus-children="">
-                                                                        <i class="hicon hicon-minus-thin small"></i>
-                                                                    </button>
-                                                                    <input type="text" class="form-control text-center" placeholder="Children" value="0" aria-label="Children" id="txtCheckChildren1" data-children-max="10" data-input-children="">
-                                                                    <button class="btn btn-outline-light" type="button" data-plus-children="">
-                                                                        <i class="hicon hicon-plus-thin small"></i>
-                                                                    </button>
-                                                                </div>
-                                                            </div>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!-- /Input number of guests -->
+                                      
                                         <!-- Button -->
-                                        <div class="mb-5">
-                                            <button type="submit" class="btn btn-primary w-100">
-                                                <i class="hicon hicon-mmb-my-booking mr-1"></i>
-                                                <span>Check Rooms</span>
-                                            </button>
-                                        </div>
+                                        <div class="col-12 col-lg-3">
+                                    <div class="row g-2">
+                                        <!-- <div class="col-12 col-lg-3"> -->
+                                
+                                        <!-- </div> -->
+                                        <!-- <div class="col-12 col-lg-5"> -->
+                                            <!-- Button -->
+                                            <div class="mb-5">
+                                                <a href="/reservation" class="btn btn-primary w-100 shadow-sm">
+                                                    <i class="hicon hicon-mmb-my-booking mr-1"></i>
+                                                    <span>Check Rooms</span>
+                                                </a>
+                                            </div>
+                                            <!-- /Button -->
+                                        <!-- </div> -->
+                                    </div>
+                                </div>
                                         <!-- /Button -->
                                         <!-- Extra links -->
                                         <ul class="nav flex-column small mb-0">

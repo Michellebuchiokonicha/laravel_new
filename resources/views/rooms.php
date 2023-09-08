@@ -627,7 +627,7 @@
                                         <span>Details</span>
                                         <i class="hicon hicon-flights-one-ways"></i>
                                     </a>
-                                    <a href="reservation.html" class="btn btn-primary">
+                                    <a href="/reservation" class="btn btn-primary">
                                         <i class="hicon hicon-menu-calendar"></i>
                                         <span>Book now</span>
                                     </a>
@@ -657,7 +657,7 @@
                                         <span>Details</span>
                                         <i class="hicon hicon-flights-one-ways"></i>
                                     </a>
-                                    <a href="reservation.html" class="btn btn-primary">
+                                    <a href="/reservation" class="btn btn-primary">
                                         <i class="hicon hicon-menu-calendar"></i>
                                         <span>Book now</span>
                                     </a>
@@ -687,7 +687,7 @@
                                         <span>Details</span>
                                         <i class="hicon hicon-flights-one-ways"></i>
                                     </a>
-                                    <a href="reservation.html" class="btn btn-primary">
+                                    <a href="/reservation" class="btn btn-primary">
                                         <i class="hicon hicon-menu-calendar"></i>
                                         <span>Book now</span>
                                     </a>
@@ -717,7 +717,7 @@
                                         <span>Details</span>
                                         <i class="hicon hicon-flights-one-ways"></i>
                                     </a>
-                                    <a href="reservation.html" class="btn btn-primary">
+                                    <a href="/reservation" class="btn btn-primary">
                                         <i class="hicon hicon-menu-calendar"></i>
                                         <span>Book now</span>
                                     </a>
@@ -747,7 +747,7 @@
                                         <span>Details</span>
                                         <i class="hicon hicon-flights-one-ways"></i>
                                     </a>
-                                    <a href="reservation.html" class="btn btn-primary">
+                                    <a href="/reservation" class="btn btn-primary">
                                         <i class="hicon hicon-menu-calendar"></i>
                                         <span>Book now</span>
                                     </a>

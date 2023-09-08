@@ -30,7 +30,6 @@
     <header id="header" class="header transition-base fixed-top z-1030  ">
         <nav class="navbar navbar-expand-xl fw-medium pt-5 pb-5 fs-6">
             <div class="container justify-content-end">
-                <!-- Brand -->
                 <a class="navbar-brand flex-grow-1" id="brandHeader" href="index-2.html">
                     <img src="assets/img/Landmark/landmark.png" srcset="./assets/img/Landmark/landmark.png 2x" class="logo" alt="">
                     <h1 class="d-none">Landmark Africa</h1>
@@ -496,7 +495,7 @@
                                         <!-- <div class="col-12 col-lg-5"> -->
                                             <!-- Button -->
                                             <div class="mb-3">
-                                                <a href="reservation.html" class="btn btn-primary w-100 shadow-sm">
+                                                <a href="/reservation" class="btn btn-primary w-100 shadow-sm">
                                                     <i class="hicon hicon-mmb-my-booking mr-1"></i>
                                                     <span>Check Rooms</span>
                                                 </a>
@@ -922,7 +921,7 @@
                                     <hr>
                                     <!-- Next step -->
                                     <div class="text-end pt-2 pb-2">
-                                        <a class="btn btn-primary" href="your-info.html">
+                                        <a class="btn btn-primary" href="/info">
                                             <span>Next step</span>
                                             <i class="hicon hicon-flights-one-ways"></i>
                                         </a>
