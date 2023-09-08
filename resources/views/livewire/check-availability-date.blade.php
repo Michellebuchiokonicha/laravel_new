@@ -12,10 +12,18 @@
                                             <!-- Input date -->
                                             <div class="mb-3">
                                                 <div class="control-icon" >
-                                                    <label class="hicon hicon-menu-calendar text-light cursor-pointer" for="txtCheckDate"></label>
-                                                    <input wire:model="dateFilter" id="txtCheckDate" type="text" class="check-date form-control bg-white text-light bg-opacity-15 border-white border-opacity-20 shadow-sm cursor-pointer" value="Mar 19 2023 - Mar 21 2023" placeholder="" readonly>
+                                                    <label class="hicon hicon-menu-calendar  cursor-pointer" for="txtCheckDate"></label>
+                                                    <input wire:model="dateFilter" id="txtCheckDate" type="text" class="check-date form-control bg-white  bg-opacity-15 border-white border-opacity-20 shadow-sm cursor-pointer" value="Mar 19 2023 - Mar 21 2023" placeholder="" readonly>
                                                 </div>
                                             </div>
+                                            <!-- -------
+                                            <div class="mb-9">
+                                        <div class="control-icon">
+                                            <label class="hicon hicon-menu-calendar cursor-pointer" for="txtCheckDate"></label>
+                                            <input wire:model="dateFilter" id="txtCheckDate" type="text" class="check-date form-control shadow-sm cursor-pointer" value="Mar 19 2023 - Mar 21 2023" placeholder="" readonly>
+                                        </div>
+                                    </div>
+                                    -------- -->
                                             <!-- /Input date -->
                                         </div>
                                         <div class="col-12 col-lg-3">

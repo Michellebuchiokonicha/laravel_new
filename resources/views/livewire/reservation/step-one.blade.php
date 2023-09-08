@@ -27,11 +27,12 @@
         </section>
         <!-- /Page title -->
         <!-- Reservation -->
+        <livewire:check-availability-date class='text-light' />
+
         <section id="reservation" class="pt-10 pb-10">
             <div class="container">
                 
-            <livewire:check-availability-date />
-
+           
                 <div class="row g-0">
                     <div class="col-12 col-xl-9 pe-xl-8" data-cue="fadeIn">
                         
