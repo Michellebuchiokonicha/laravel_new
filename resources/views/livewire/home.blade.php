@@ -2,6 +2,7 @@
     <div>
         <!-- Hero carousel -->
         <section id="heroVideo" class="hero-video">
+           
             <!-- Video -->
             <div class="video-wrapper bg-overlay bg-overlay-700 ratio ratio-16x9 text-body text-center" data-bs-theme="dark">
                 <video class="object-fit-cover" poster="assets/img/background/bg7.jpeg" src="assets/media/video_landmark.mp4" autoplay loop playsinline muted></video>
@@ -20,7 +21,8 @@
             </div>
             <!-- /Video -->
             <!-- Check rooms -->
-            <livewire:check-availability-date />
+            {{Session::get('selectedDate')}}
+            @livewire('check-availability-date', ['colorCheck' => "check-date form-control bg-white text-white  bg-opacity-15 border-white border-opacity-20 shadow-sm cursor-pointer"])
             <!-- /Check rooms -->
         </section>
         <!-- /Hero carousel -->

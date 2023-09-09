@@ -27,7 +27,9 @@
         </section>
         <!-- /Page title -->
         <!-- Reservation -->
-        <livewire:check-availability-date class='text-light' />
+        
+        @livewire('check-availability-date', ['colorCheck' => "check-date form-control bg-white bg-opacity-15 border-white border-opacity-20 shadow-sm cursor-pointer"])
+
 
         <section id="reservation" class="pt-10 pb-10">
             <div class="container">

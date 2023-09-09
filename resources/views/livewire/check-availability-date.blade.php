@@ -1,5 +1,6 @@
 <div>
 <section id="checkRooms" class="check-room">
+<form wire:submit="save"> 
                 <div class="container">
                     <h2 class="d-none">Check rooms</h2>
                     
@@ -13,7 +14,10 @@
                                             <div class="mb-3">
                                                 <div class="control-icon" >
                                                     <label class="hicon hicon-menu-calendar  cursor-pointer" for="txtCheckDate"></label>
-                                                    <input wire:model="dateFilter" id="txtCheckDate" type="text" class="check-date form-control bg-white  bg-opacity-15 border-white border-opacity-20 shadow-sm cursor-pointer" value="Mar 19 2023 - Mar 21 2023" placeholder="" readonly>
+                                                    <input wire:model="dateFilter" id="txtCheckDate" type="text" class=" {{$colorCheck}}" placeholder=""
+                                                    onChange="Livewire.emit('setDate', this.value)"
+                                                     ><input wire:model="message" type='text'>
+                                                     {{$message}}
                                                 </div>
                                             </div>
                                             <!-- -------
@@ -34,9 +38,13 @@
                                                     <div class="mb-3">
                                                         <a href="/step-one" class="btn btn-primary w-100">
                                                             <i class="hicon hicon-mmb-my-booking mr-1"></i>
-                                                            <span>Check Rooms</span>
+                                                            <span>Check Rooms {{$dateFilter}}</span>
+                                                            {{$message}} yes{{$dateFilter}}na
                                                         </a>
                                                     </div>
+                                                    <input type="submit"
+                                                   
+                                                    >
                                                     <!-- /Button -->
                                                 <!-- </div> -->
                                             </div>
@@ -47,5 +55,6 @@
                         </div>
                     </div>
                 </div>
+               </form>
             </section>
 </div>
