@@ -4,9 +4,11 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <title>{{ $title ?? 'Page Title' }}</title>
+        <!-- <title>{{ $title ?? 'Page Title' }}</title> -->
+        <title>Landmark Hotel </title>
         <link href="assets/img/Landmark/landmark.ico" rel="shortcut icon">
     <link href="assets/css/bundle.min.css" rel="stylesheet">
+    @livewireStyles
     </head>
     <body class="vh-100 vw-100 overflow-hidden bg-light">
     <!-- Header -->
@@ -44,7 +46,7 @@
                                 
                             </li>
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle-hover text-uppercase @@rooms" href="/rooms" data-bs-display="static">
+                                <a class="nav-link dropdown-toggle-hover text-uppercase @@rooms" href="/step-one" data-bs-display="static">
                                     <span>Rooms</span>
                                 </a>
                             </li>
@@ -58,7 +60,7 @@
                             <li class="nav-item dropdown"><a class="nav-link text-uppercase @@gallery" href="/contact">About</a></li>
                             <li class="nav-item dropdown">
                             <div class="mt-2 mt-xl-0 order-0 order-xl-1">
-                                <a href="/reservation/step-one" class="btn btn-primary">
+                                <a href="/step-one" class="btn btn-primary">
                                     <i class="hicon hicon-24hour-room-service"></i>
                                     <span>Reservation</span>
                                 </a>
@@ -778,5 +780,6 @@
     <!-- Scripts -->
     <script src="assets/js/bundle.min.js"></script>
     <!-- /Scripts -->
+    @livewireScripts
     </body>
 </html>

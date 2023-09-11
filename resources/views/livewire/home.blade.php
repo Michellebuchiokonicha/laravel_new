@@ -1,17 +1,21 @@
 <div>
+    @livewireScripts  
+  
     <div>
         <!-- Hero carousel -->
         <section id="heroVideo" class="hero-video">
            
             <!-- Video -->
-            <div class="video-wrapper bg-overlay bg-overlay-700 ratio ratio-16x9 text-body text-center" data-bs-theme="dark">
-                <video class="object-fit-cover" poster="assets/img/background/bg7.jpeg" src="assets/media/video_landmark.mp4" autoplay loop playsinline muted></video>
+            <div class="video-wrapper bg-overlay bg-overlay-700 ratio ratio-16x9 text-body text-center" style='' data-bs-theme="dark">
+            <img src="assets/img/rooms/r11.jpg" srcset="./assets/img/rooms/r11@2x.jpg 2x" class="img-fluid w-100" alt="">
+                <!-- <video class="object-fit-cover" poster="assets/img/background/bg7.jpeg" src="assets/media/video_landmark.mp4" autoplay loop playsinline muted></video> -->
                 <div class="bg-content">
                     <div class="video-caption position-absolute z-1 top-50 start-50 translate-middle w-100">
                         <div class="container">
                             <div class="row justify-content-center">
                                 <div class="col-11 col-xl-7 col-lg-9">
-                                    <h4 class="display-4 fw-semibold ff-heading text-uppercase">Landmark Hotel</h4>
+                              
+                                <h4 class="display-4 fw-semibold ff-heading text-uppercase">Landmark Hotel</h4>
                                     <p class="fs-4">Landmark Hotel is an amazing environment for eveßi corpora, no numquam corrumpit prodesset pri.</p>
                                 </div>
                             </div>
@@ -30,9 +34,22 @@
         <section id="about" class="pt-14 pb-14">
             <div class="container">
                 <div class="row align-items-start align-items-md-stretch" data-cues="fadeIn">
-                    <div class="col-12 col-lg-6 order-1 order-lg-0">
-                        <!-- Map -->
-                        <iframe src="https://snazzymaps.com/embed/385606" class="border-0 w-100 d-block rounded shadow-sm overflow-hidden" style="height:400px"></iframe>
+                    <div class="col-12 col-lg-6 order-1 order-lg-0 spaceG">
+                        <div class='row align-items-start align-items-md-stretch mb-6'>
+                        <div class='col-4 col-lg-6' >
+                        <img src="assets/img/rooms/r11.jpg" srcset="./assets/img/rooms/r11@2x.jpg 2x" class="img-fluid w-10" alt="">
+                        </div>
+                        <div class='col-4 col-lg-6' ><img src="assets/img/rooms/r11.jpg" srcset="./assets/img/rooms/r11@2x.jpg 2x" class="img-fluid w-10" alt=""></div>
+                        </div>
+                        <div class='row align-items-start align-items-md-stretch'>
+                        <div class='col-4 col-lg-6' ><img src="assets/img/rooms/r11.jpg" srcset="./assets/img/rooms/r11@2x.jpg 2x" class="img-fluid w-10" alt=""></div>
+                        <div class='col-4 col-lg-6' ><img src="assets/img/rooms/r11.jpg" srcset="./assets/img/rooms/r11@2x.jpg 2x" class="img-fluid w-10" alt=""></div>
+
+                        </div>
+                                              <!-- Map -->
+                        <!-- <img src="assets/img/rooms/r11.jpg" srcset="./assets/img/rooms/r11@2x.jpg 2x" class="img-fluid w-100" alt=""> -->
+
+                        <!-- <iframe src="https://snazzymaps.com/embed/385606" class="border-0 w-100 d-block rounded shadow-sm overflow-hidden" style="height:400px"></iframe> -->
                         <!-- /Map -->
                     </div>
                     <div class="col-12 col-lg-6 order-0 order-lg-1">
@@ -53,6 +70,7 @@
                 </div>
             </div>
         </section>
+        
         <!-- /About -->
         <!-- Rooms -->
         <section id="rooms" class="pt-14 pb-14 bg-body" data-bs-theme="dark">
@@ -221,218 +239,91 @@
         </section>
         <!-- /Rooms -->
         <!-- Facilities -->
-        <section id="facilitiesAmenities" class="pt-14 pb-10">
-            <div class="container">
-                <!-- Heading -->
-                <div class="mb-8" data-cue="fadeIn">
-                    <h2 class="text-uppercase ff-heading">Facilities</h2>
-                    <p class="fs-5 fw-normal text-body-secondary">Landmark Facilities are good and kind to your health uo latine veritus vituperata vim no</p>
-                </div>
-                <!-- /Heading -->
-                <!-- List -->
-                <div class="row" data-cues="fadeIn">
-                    <div class="col-12 col-xl-4 col-md-6">
-                        <!-- Item -->
-                        <div class="mb-5">
-                            <div class="d-flex align-items-start">
-                                <div class="fs-1 text-primary pe-5 lh-sm">
-                                    <i class="hicon hicon-wifi"></i>
-                                </div>
-                                <div>
-                                    <h3 class="h6 text-uppercase ff-sub ls-1">High Speed Wifi</h3>
-                                    <p>Vix placerat no, eam cu bonorum sententiae, adipisci atomorum duo noster ad vel</p>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- /Item -->
-                    </div>
-                    <div class="col-12 col-xl-4 col-md-6">
-                        <!-- Item -->
-                        <div class="mb-5">
-                            <div class="d-flex align-items-start">
-                                <div class="fs-1 text-primary pe-5 lh-sm">
-                                    <i class="hicon hicon-reception"></i>
-                                </div>
-                                <div>
-                                    <h3 class="h6 text-uppercase ff-sub ls-1">Front desk 24H</h3>
-                                    <p>Scripta apeirian in his. Quo accusa complect eu, errem adipisci ocurreret an per</p>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- /Item -->
-                    </div>
-                    <div class="col-12 col-xl-4 col-md-6">
-                        <!-- Item -->
-                        <div class="mb-5">
-                            <div class="d-flex align-items-start">
-                                <div class="fs-1 text-primary pe-5 lh-sm">
-                                    <i class="hicon hicon-car-park-onsite"></i>
-                                </div>
-                                <div>
-                                    <h3 class="h6 text-uppercase ff-sub ls-1">Parking Space</h3>
-                                    <p>An quis eligendi duo, placerat latine veritus vim placerat. Duo errem latine scribentur</p>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- /Item -->
-                    </div>
-                    <div class="col-12 col-xl-4 col-md-6">
-                        <!-- Item -->
-                        <div class="mb-5">
-                            <div class="d-flex align-items-start">
-                                <div class="fs-1 text-primary pe-5 lh-sm">
-                                    <i class="hicon hicon-pool"></i>
-                                </div>
-                                <div>
-                                    <h3 class="h6 text-uppercase ff-sub ls-1"> Swimming Pool</h3>
-                                    <p>Has et magna dolore dicit. No placerat essent inermis nec prima homero similique pri at.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- /Item -->
-                    </div>
-                    <div class="col-12 col-xl-4 col-md-6">
-                        <!-- Item -->
-                        <div class="mb-5">
-                            <div class="d-flex align-items-start">
-                                <div class="fs-1 text-primary pe-5 lh-sm">
-                                    <i class="hicon hicon-spas"></i>
-                                </div>
-                                <div>
-                                    <h3 class="h6 text-uppercase ff-sub ls-1">Spa center</h3>
-                                    <p>Mel graece consequ cu, ex dicunt appareat duo, vim errem adipisci augue placerat.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- /Item -->
-                    </div>
-                    <div class="col-12 col-xl-4 col-md-6">
-                        <!-- Item -->
-                        <div class="mb-5">
-                            <div class="d-flex align-items-start">
-                                <div class="fs-1 text-primary pe-5 lh-sm">
-                                    <i class="hicon hicon-fitness-center"></i>
-                                </div>
-                                <div>
-                                    <h3 class="h6 text-uppercase ff-sub ls-1">Fitness Center</h3>
-                                    <p>Ne ius assentior, te soluta facilisis mel placerat appareat duo dicunt splendide quo no.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- /Item -->
-                    </div>
-                </div>
-                <!-- /List -->
-            </div>
-        </section>
+        
         <!-- /Facilities -->
         <!-- Services -->
         <section id="extra-services" class="pt-14 pb-14 bg-primary-50">
             <div class="container">
                 <!-- Heading -->
                 <div class="mb-8" data-cue="fadeIn">
-                    <h2 class="text-uppercase ff-heading">Extra Services</h2>
+                    <h2 class="text-uppercase ff-heading">Blog</h2>
                     <p class="fs-5 fw-normal text-body-secondary">Eos clita partem utroque veri integre qui, duo dolore tacimates..</p>
                 </div>
                 <!-- /Heading -->
                 <!-- Service list -->
-                <div class="row g-5" data-cues="fadeIn">
-                    <div class="col-12 col-xl-6">
-                        <!-- Service item -->
+                <div class="service-slider" data-cue="fadeIn">
+                    <!-- Service item -->
+                    <div class="mb-4">
                         <div class="card border-0 shadow-sm">
-                            <div class="row g-0">
-                                <div class="col-12 col-xl-6 col-lg-4 col-md-6">
-                                    <a href="/step-one">
-                                        <figure class="image-hover-scale image-hover-overlay rounded mb-0">
-                                            <img src="assets/img/services/s4.jpg" srcset="./assets/img/services/s4@2x.jpg 2x" class="img-fluid w-100" alt="">
-                                            <i class="hicon hicon-plus-thin image-hover-icon fs-4"></i>
-                                        </figure>
-                                    </a>
-                                </div>
-                                <div class="col-12 col-xl-6 col-lg-8 col-md-6">
-                                    <div class="card-body">
-                                        <h3 class="card-title h6 text-uppercase ff-sub ls-1">Restaurant & bar</h3>
-                                        <p class="card-text">Vis ei tation iisque suscipit, vim id tota dolores hendrerit.</p>
-                                        <a href="/step-one" class="card-link fw-medium"> Read more <i class="hicon hicon-flights-one-ways"></i>
-                                        </a>
-                                    </div>
-                                </div>
+                            <a href="restaurant.html" class="d-block card-img-top">
+                                <figure class="image-hover-scale image-hover-overlay rounded mb-0">
+                                    <img src="assets/img/services/s4-1.jpg" srcset="./assets/img/services/s4-1@2x.jpg 2x" class="img-fluid w-100" alt="">
+                                    <i class="hicon hicon-plus-thin image-hover-icon fs-4"></i>
+                                </figure>
+                            </a>
+                            <div class="card-body">
+                                <h3 class="card-title h6 text-uppercase ff-sub ls-1">Restaurant & bar</h3>
+                                <p class="card-text">Vis ei tation iisque suscipit, vim id tota dolores hendrerit.</p>
+                                <a href="restaurant.html" class="card-link fw-medium"> Read more <i class="hicon hicon-flights-one-ways"></i>
+                                </a>
                             </div>
                         </div>
-                        <!-- /Service item -->
                     </div>
-                    <div class="col-12 col-xl-6">
-                        <!-- Service item -->
+                    <!-- /Service item -->
+                    <!-- Service item -->
+                    <div class="mb-4">
                         <div class="card border-0 shadow-sm">
-                            <div class="row g-0">
-                                <div class="col-12 col-xl-6 col-lg-4 col-md-6">
-                                    <a href="/step-one">
-                                        <figure class="image-hover-scale image-hover-overlay rounded mb-0">
-                                            <img src="assets/img/services/s3.jpg" srcset="./assets/img/services/s3@2x.jpg 2x" class="img-fluid w-100" alt="">
-                                            <i class="hicon hicon-plus-thin image-hover-icon fs-4"></i>
-                                        </figure>
-                                    </a>
-                                </div>
-                                <div class="col-12 col-xl-6 col-lg-8 col-md-6">
-                                    <div class="card-body">
-                                        <h3 class="card-title h6 text-uppercase ff-sub ls-1">Meetings & events</h3>
-                                        <p class="card-text">Lorem ipsum dolor sit amet, tota vis constituto neglegentur.</p>
-                                        <a href="/step-one" class="card-link fw-medium"> Read more <i class="hicon hicon-flights-one-ways"></i>
-                                        </a>
-                                    </div>
-                                </div>
+                            <a href="meetings-events.html" class="d-block card-img-top">
+                                <figure class="image-hover-scale image-hover-overlay rounded mb-0">
+                                    <img src="assets/img/services/s3-1.jpg" srcset="./assets/img/services/s3-1@2x.jpg 2x" class="img-fluid w-100" alt="">
+                                    <i class="hicon hicon-plus-thin image-hover-icon fs-4"></i>
+                                </figure>
+                            </a>
+                            <div class="card-body">
+                                <h3 class="card-title h6 text-uppercase ff-sub ls-1">Meetings & events</h3>
+                                <p class="card-text">Lorem ipsum dolor sit amet, tota vis constituto neglegentur.</p>
+                                <a href="meetings-events.html" class="card-link fw-medium"> Read more <i class="hicon hicon-flights-one-ways"></i>
+                                </a>
                             </div>
                         </div>
-                        <!-- /Service item -->
                     </div>
-                    <div class="col-12 col-xl-6">
-                        <!-- Service item -->
+                    <!-- /Service item -->
+                    <!-- Service item -->
+                    <div class="mb-4">
                         <div class="card border-0 shadow-sm">
-                            <div class="row g-0">
-                                <div class="col-12 col-xl-6 col-lg-8 col-md-6">
-                                    <div class="card-body">
-                                        <h3 class="card-title h6 text-uppercase ff-sub ls-1">Booking Tours</h3>
-                                        <p class="card-text">Pri ad deserunt percipi ullam corper, mel dicam constitu.</p>
-                                        <a href="/contact" class="card-link fw-medium"> Read more <i class="hicon hicon-flights-one-ways"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="col-12 col-xl-6 col-lg-4 col-md-6">
-                                    <a href="/contact">
-                                        <figure class="image-hover-scale image-hover-overlay rounded mb-0">
-                                            <img src="assets/img/services/s2.jpg" srcset="./assets/img/services/s2@2x.jpg 2x" class="img-fluid w-100" alt="">
-                                            <i class="hicon hicon-plus-thin image-hover-icon fs-4"></i>
-                                        </figure>
-                                    </a>
-                                </div>
+                            <a href="tour-categories.html" class="d-block card-img-top">
+                                <figure class="image-hover-scale image-hover-overlay rounded mb-0">
+                                    <img src="assets/img/services/s2-1.jpg" srcset="./assets/img/services/s2-1@2x.jpg 2x" class="img-fluid w-100" alt="">
+                                    <i class="hicon hicon-plus-thin image-hover-icon fs-4"></i>
+                                </figure>
+                            </a>
+                            <div class="card-body">
+                                <h3 class="card-title h6 text-uppercase ff-sub ls-1">Booking Tours</h3>
+                                <p class="card-text">Pri ad deserunt percipi ullam corper, mel dicam constitu.</p>
+                                <a href="tour-categories.html" class="card-link fw-medium"> Read more <i class="hicon hicon-flights-one-ways"></i>
+                                </a>
                             </div>
                         </div>
-                        <!-- /Service item -->
                     </div>
-                    <div class="col-12 col-xl-6">
-                        <!-- Service item -->
+                    <!-- /Service item -->
+                    <!-- Service item -->
+                    <div class="mb-4">
                         <div class="card border-0 shadow-sm">
-                            <div class="row g-0">
-                                <div class="col-12 col-xl-6 col-lg-8 col-md-6">
-                                    <div class="card-body">
-                                        <h3 class="card-title h6 text-uppercase ff-sub ls-1">Airport Transfers</h3>
-                                        <p class="card-text">Ne labitur persecu ius, in tale laoreet mentit pri, laoreet.</p>
-                                        <a href="/contact" class="card-link fw-medium"> Read more <i class="hicon hicon-flights-one-ways"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="col-12 col-xl-6 col-lg-4 col-md-6">
-                                    <a href="airport-transfers.html">
-                                        <figure class="image-hover-scale image-hover-overlay rounded mb-0">
-                                            <img src="assets/img/services/s1.jpg" srcset="./assets/img/services/s1@2x.jpg 2x" class="img-fluid w-100" alt="">
-                                            <i class="hicon hicon-plus-thin image-hover-icon fs-4"></i>
-                                        </figure>
-                                    </a>
-                                </div>
+                            <a href="airport-transfers.html" class="d-block card-img-top">
+                                <figure class="image-hover-scale image-hover-overlay rounded mb-0">
+                                    <img src="assets/img/services/s1-1.jpg" srcset="./assets/img/services/s1-1@2x.jpg 2x" class="img-fluid w-100" alt="">
+                                    <i class="hicon hicon-plus-thin image-hover-icon fs-4"></i>
+                                </figure>
+                            </a>
+                            <div class="card-body">
+                                <h3 class="card-title h6 text-uppercase ff-sub ls-1">Airport Transfers</h3>
+                                <p class="card-text">Ne labitur persecu ius, in tale laoreet mentit pri, laoreet.</p>
+                                <a href="airport-transfers.html" class="card-link fw-medium"> Read more <i class="hicon hicon-flights-one-ways"></i>
+                                </a>
                             </div>
                         </div>
-                        <!-- /Service item -->
                     </div>
+                    <!-- /Service item -->
                 </div>
                 <!-- /Service list -->
             </div>
@@ -543,104 +434,90 @@
         </section>
         <!-- /Testimonials -->
         <!-- News & events -->
-        <section id="newsEvents" class="pt-14 pb-14 bg-primary-50">
+        <section id="extra-services" class="pt-14 pb-14 bg-primary-50">
             <div class="container">
                 <!-- Heading -->
-                <div class="mb-8 text-center" data-cue="fadeIn">
-                    <h2 class="text-uppercase ff-heading">News & Events</h2>
-                    <p class="fs-5 fw-normal text-body-secondary">Pro sonet consul maiorum ad. Delenit omittantur ne cum gloriatur.</p>
+                <div class="mb-8" data-cue="fadeIn">
+                    <h2 class="text-uppercase ff-heading"> Services</h2>
+                    <p class="fs-5 fw-normal text-body-secondary">Eos clita partem utroque veri integre qui, duo dolore tacimates..</p>
                 </div>
                 <!-- /Heading -->
-                <!-- Article list -->
-                <div class="row g-0 g-lg-7" data-cues="fadeIn">
-                    <div class="col-12 col-xl-4 col-lg-12">
-                        <!-- Article -->
-                        <article class="card post border-0 mb-6 shadow-sm">
-                            <a href="single-post.html" title="">
-                                <figure class="image-hover-scale image-hover-overlay rounded-top mb-0">
-                                    <img src="assets/img/news/n1.jpg" srcset="./assets/img/news/n1@2x.jpg 2x" class="card-img-top" alt="">
-                                    <span class="position-absolute bg-dark bg-opacity-85 z-1 start-0 top-0 text-white d-flex flex-column p-3 small text-uppercase text-center">
-                                        <small>10</small>
-                                        <small>Jul</small>
-                                        <small>22</small>
-                                    </span>
+                <!-- Service list -->
+                <div class="service-slider" data-cue="fadeIn">
+                    <!-- Service item -->
+                    <div class="mb-4">
+                        <div class="card border-0 shadow-sm">
+                            <a href="restaurant.html" class="d-block card-img-top">
+                                <figure class="image-hover-scale image-hover-overlay rounded mb-0">
+                                    <img src="assets/img/services/s4-1.jpg" srcset="./assets/img/services/s4-1@2x.jpg 2x" class="img-fluid w-100" alt="">
                                     <i class="hicon hicon-plus-thin image-hover-icon fs-4"></i>
                                 </figure>
                             </a>
                             <div class="card-body">
-                                <a href="#" class="mb-2 text-uppercase small d-inline-block">Promotion</a>
-                                <h3 class="card-title h6 text-uppercase ff-sub ls-1">Landmark Weekend Discount</h3>
-                                <p>Eos clita partem utroque ut, veri integre qui ut, id posidonium duo dolore tacimates. Modo detracto scribentur id vis.</p>
-                                <a href="single-post.html" class="card-link fw-medium">
-                                    <span>Details</span>
-                                    <i class="hicon hicon-flights-one-ways"></i>
+                                <h3 class="card-title h6 text-uppercase ff-sub ls-1">Restaurant & bar</h3>
+                                <p class="card-text">Vis ei tation iisque suscipit, vim id tota dolores hendrerit.</p>
+                                <a href="restaurant.html" class="card-link fw-medium"> Read more <i class="hicon hicon-flights-one-ways"></i>
                                 </a>
                             </div>
-                        </article>
-                        <!-- /Article -->
+                        </div>
                     </div>
-                    <div class="col-12 col-xl-4 col-lg-12">
-                        <!-- Article -->
-                        <article class="card post border-0 mb-6 shadow-sm">
-                            <a href="single-post.html" title="">
-                                <figure class="image-hover-scale image-hover-overlay rounded-top mb-0">
-                                    <img src="assets/img/news/n2.jpg" srcset="./assets/img/news/n2@2x.jpg 2x" class="card-img-top" alt="">
-                                    <span class="position-absolute bg-dark bg-opacity-85 z-1 start-0 top-0 text-white d-flex flex-column p-3 small text-uppercase text-center">
-                                        <small>11</small>
-                                        <small>Jul</small>
-                                        <small>22</small>
-                                    </span>
+                    <!-- /Service item -->
+                    <!-- Service item -->
+                    <div class="mb-4">
+                        <div class="card border-0 shadow-sm">
+                            <a href="meetings-events.html" class="d-block card-img-top">
+                                <figure class="image-hover-scale image-hover-overlay rounded mb-0">
+                                    <img src="assets/img/services/s3-1.jpg" srcset="./assets/img/services/s3-1@2x.jpg 2x" class="img-fluid w-100" alt="">
                                     <i class="hicon hicon-plus-thin image-hover-icon fs-4"></i>
                                 </figure>
                             </a>
                             <div class="card-body">
-                                <a href="#" class="mb-2 text-uppercase small d-inline-block">Promotion</a>
-                                <h3 class="card-title h6 text-uppercase ff-sub ls-1">25% off Landmark Hotel Spa & Massage </h3>
-                                <p>Virtute appellantur mea integre, eos an dicant posidonium efficiendi. Vix utroque integre placerat eloquen no.</p>
-                                <a href="single-post.html" class="card-link fw-medium">
-                                    <span>Details</span>
-                                    <i class="hicon hicon-flights-one-ways"></i>
+                                <h3 class="card-title h6 text-uppercase ff-sub ls-1">Meetings & events</h3>
+                                <p class="card-text">Lorem ipsum dolor sit amet, tota vis constituto neglegentur.</p>
+                                <a href="meetings-events.html" class="card-link fw-medium"> Read more <i class="hicon hicon-flights-one-ways"></i>
                                 </a>
                             </div>
-                        </article>
-                        <!-- /Article -->
+                        </div>
                     </div>
-                    <div class="col-12 col-xl-4 col-lg-12">
-                        <!-- Article -->
-                        <article class="card post border-0 mb-6 shadow-sm">
-                            <a href="single-post.html" title="">
-                                <figure class="image-hover-scale image-hover-overlay rounded-top mb-0">
-                                    <img src="assets/img/news/n3.jpg" srcset="./assets/img/news/n3@2x.jpg 2x" class="card-img-top" alt="">
-                                    <span class="position-absolute bg-dark bg-opacity-85 z-1 start-0 top-0 text-white d-flex flex-column p-3 small text-uppercase text-center">
-                                        <small>11</small>
-                                        <small>Jul</small>
-                                        <small>22</small>
-                                    </span>
+                    <!-- /Service item -->
+                    <!-- Service item -->
+                    <div class="mb-4">
+                        <div class="card border-0 shadow-sm">
+                            <a href="tour-categories.html" class="d-block card-img-top">
+                                <figure class="image-hover-scale image-hover-overlay rounded mb-0">
+                                    <img src="assets/img/services/s2-1.jpg" srcset="./assets/img/services/s2-1@2x.jpg 2x" class="img-fluid w-100" alt="">
                                     <i class="hicon hicon-plus-thin image-hover-icon fs-4"></i>
                                 </figure>
                             </a>
                             <div class="card-body">
-                                <a href="#" class="mb-2 text-uppercase small d-inline-block">Promotion</a>
-                                <h3 class="card-title h6 text-uppercase ff-sub ls-1">15% off Landmark city tours </h3>
-                                <p>Sed diam constituam ei, qui erat probo dissentiet ex volutpat, tacimates pri cu errem timeam cotidieque purto.</p>
-                                <a href="single-post.html" class="card-link fw-medium">
-                                    <span>Details</span>
-                                    <i class="hicon hicon-flights-one-ways"></i>
+                                <h3 class="card-title h6 text-uppercase ff-sub ls-1">Booking Tours</h3>
+                                <p class="card-text">Pri ad deserunt percipi ullam corper, mel dicam constitu.</p>
+                                <a href="tour-categories.html" class="card-link fw-medium"> Read more <i class="hicon hicon-flights-one-ways"></i>
                                 </a>
                             </div>
-                        </article>
-                        <!-- /Article -->
+                        </div>
                     </div>
+                    <!-- /Service item -->
+                    <!-- Service item -->
+                    <div class="mb-4">
+                        <div class="card border-0 shadow-sm">
+                            <a href="airport-transfers.html" class="d-block card-img-top">
+                                <figure class="image-hover-scale image-hover-overlay rounded mb-0">
+                                    <img src="assets/img/services/s1-1.jpg" srcset="./assets/img/services/s1-1@2x.jpg 2x" class="img-fluid w-100" alt="">
+                                    <i class="hicon hicon-plus-thin image-hover-icon fs-4"></i>
+                                </figure>
+                            </a>
+                            <div class="card-body">
+                                <h3 class="card-title h6 text-uppercase ff-sub ls-1">Airport Transfers</h3>
+                                <p class="card-text">Ne labitur persecu ius, in tale laoreet mentit pri, laoreet.</p>
+                                <a href="airport-transfers.html" class="card-link fw-medium"> Read more <i class="hicon hicon-flights-one-ways"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /Service item -->
                 </div>
-                <!-- /Article list -->
-                <!-- Button -->
-                <div class="text-center pt-6" data-cue="fadeIn">
-                    <a href="news.html" class="btn btn-primary">
-                        <span>View all</span>
-                        <i class="hicon hicon-flights-one-ways"></i>
-                    </a>
-                </div>
-                <!-- /Button-->
+                <!-- /Service list -->
             </div>
         </section>
         <!-- /News & events -->
@@ -733,6 +610,7 @@
         </section>
         <!-- /Quick booking -->
     </main>   
-                      
+        
     </div>
+    @livewireScripts   
 </div>

@@ -4155,7 +4155,7 @@ a.plyr__control {
     --bs-light-border-subtle: #e9e9e9;
     --bs-dark-border-subtle: #adadad;
     --bs-section-background: #262D60;
-    --bs-black-back: #000;
+    --bs-black-back: #fff;
     --bs-white-rgb: 255, 255, 255;
     --bs-black-rgb: 17, 17, 17;
     --bs-body-color-rgb: 33, 33, 33;
@@ -4378,7 +4378,7 @@ h4 {
 }
 .h5,
 h5 {
-    font-size: 1.38325rem;
+    font-size: 1.18315rem;
 }
 .h6,
 h6 {
@@ -13055,46 +13055,46 @@ fieldset:disabled .btn {
     bottom: 0;
     top: 0;
     position: absolute;
-    background-color: rgba(17, 17, 17, 0.35);
+    background-color: rgba(65, 97, 225, 0.35);
 }
 .video-wrapper.bg-overlay-300:after {
-    background: rgba(17, 17, 17, 0.3);
+    background: rgba(230,230,250 0.3);
 }
 .video-wrapper.bg-overlay-300-light:after {
     background: rgba(255, 255, 255, 0.3);
 }
 .video-wrapper.bg-overlay-400:after {
-    background: rgba(17, 17, 17, 0.4);
+    background: rgba(230,230,250, 0.4);
 }
 .video-wrapper.bg-overlay-400-light:after {
     background: rgba(255, 255, 255, 0.4);
 }
 .video-wrapper.bg-overlay-500:after {
-    background: rgba(17, 17, 17, 0.5);
+    background: rgba(230,230,250 0.5);
 }
 .video-wrapper.bg-overlay-500-light:after {
     background: rgba(255, 255, 255, 0.5);
 }
 .video-wrapper.bg-overlay-600:after {
-    background: rgba(17, 17, 17, 0.6);
+    background: rgba(230,230,250 0.6);
 }
 .video-wrapper.bg-overlay-600-light:after {
     background: rgba(255, 255, 255, 0.6);
 }
 .video-wrapper.bg-overlay-700:after {
-    background: rgba(17, 17, 17, 0.7);
+    background: rgba(230,230,250 0.7);
 }
 .video-wrapper.bg-overlay-700-light:after {
     background: rgba(255, 255, 255, 0.7);
 }
 .video-wrapper.bg-overlay-800:after {
-    background: rgba(17, 17, 17, 0.8);
+    background: rgba(230,230,250 0.8);
 }
 .video-wrapper.bg-overlay-800-light:after {
     background: rgba(255, 255, 255, 0.8);
 }
 .video-wrapper.bg-overlay-900:after {
-    background: rgba(17, 17, 17, 0.9);
+    background: rgba(230,230,250 0.9);
 }
 .video-wrapper.bg-overlay-900-light:after {
     background: rgba(255, 255, 255, 0.9);
@@ -15919,7 +15919,7 @@ fieldset:disabled .btn {
     font-weight: 200 !important;
 }
 .fw-normal {
-    font-weight: 700 !important;
+    font-weight: 400 !important;
 }
 .fw-medium {
     font-weight: 400 !important;
@@ -32006,4 +32006,59 @@ fieldset:disabled .btn {
 }
 .hicon-zoom-bold:before {
     content: "\F610";
+}
+.backNow{
+    background-image: url('assets/Landmark-Hotel-And-Beach-Resort-Lagos.webp');
+    height: 50rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    backface-visibility: hidden;
+    margin-bottom: 5rem;
+    /* background-blend-mode: color; */
+    background-color: rgb(17, 2, 36);
+} 
+.image1{
+    background-image: url('assets/img/food-1.jpg.webp');
+    /* height: 50rem; */
+    background-repeat: no-repeat;
+    background-size: cover;
+     background-blend-mode: multiply;
+    background-color: rgb(17, 2, 36);
+}
+.image2{
+    background-image: url('assets/img/jetski.webp');
+    /* height: 50rem; */
+    background-repeat: no-repeat;
+    background-size: cover;
+     background-blend-mode: multiply;
+     background-color: rgb(17, 2, 36);
+}
+.image3{
+    background-image: url('assets/img/rooms/r1.jpg');
+    /* height: 50rem; */
+    background-repeat: no-repeat;
+    background-size: cover;
+     background-blend-mode: multiply;
+     background-color: rgb(17, 2, 36);
+}
+.image4{
+    background-image: url('assets/img/beach.jpeg');
+    /* height: 50rem; */
+    background-repeat: no-repeat;
+    background-size: cover;
+     background-blend-mode: multiply;
+    background-color: rgb(17, 2, 36);
+}
+.image-text1{
+    color: #fff;
+    /* background-color: #fff; */
+}
+.bookNow{
+    margin-top: 20rem;
+}
+.margSide{
+    margin-right: 5rem;
+}
+.spaceG{
+    
 }

@@ -451,7 +451,7 @@
                                 <div class="progress bg-dark-subtle" role="progressbar" aria-label="Progress" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="height: 1px;">
                                     <div class="progress-bar" style="width: 33.333333%"></div>
                                 </div>
-                                <a href="/step-two" class="position-absolute top-0 start-0 translate-middle btn btn-sm btn-square btn-primary rounded-circle">1</a>
+                                <a href="/step-one" class="position-absolute top-0 start-0 translate-middle btn btn-sm btn-square btn-primary rounded-circle">1</a>
                                 <a href="javascript:void(0);" class="position-absolute top-0 start-33 translate-middle btn btn-sm btn-square btn-primary rounded-circle">2</a>
                                 <a href="javascript:void(0);" class="position-absolute top-0 start-66 translate-middle btn btn-sm btn-square btn-secondary rounded-circle">3</a>
                                 <a href="javascript:void(0);" class="position-absolute top-0 start-100 translate-middle btn btn-sm btn-square btn-secondary rounded-circle">4</a>
@@ -472,7 +472,7 @@
                             <div class="card-body">
                                 <div class="d-flex justify-content-between align-items-center">
                                     <h2 class="h4 mb-0 text-uppercase ff-sub ls-1">1. Booking details</h2>
-                                    <a href="/reservation" class="fw-semibold text-secondary link-hover-primary d-inline-block">
+                                    <a href="/step-one" class="fw-semibold text-secondary link-hover-primary d-inline-block">
                                         <i class="hicon hicon-edit"></i>
                                         <span>Edit</span>
                                     </a>

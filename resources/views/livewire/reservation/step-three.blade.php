@@ -35,7 +35,7 @@
                             <div class="card-body">
                                 <div class="d-flex justify-content-between align-items-center">
                                     <h2 class="h4 mb-0 text-uppercase ff-sub ls-1">1. Booking details</h2>
-                                    <a href="/reservation" class="fw-semibold text-secondary link-hover-primary d-inline-block">
+                                    <a href="/step-one" class="fw-semibold text-secondary link-hover-primary d-inline-block">
                                         <i class="hicon hicon-edit"></i>
                                         <span>Edit</span>
                                     </a>

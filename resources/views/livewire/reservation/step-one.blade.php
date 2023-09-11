@@ -54,7 +54,7 @@
                                     <div class="row g-2">
                                         
                                             <div class="mb-5">
-                                                <a href="/step-one" class="btn btn-primary w-100 shadow-sm">
+                                                <a href="/" class="btn btn-primary w-100 shadow-sm">
                                                     <i class="hicon hicon-mmb-my-booking mr-1"></i>
                                                     <span>Check Rooms</span>
                                                 </a>

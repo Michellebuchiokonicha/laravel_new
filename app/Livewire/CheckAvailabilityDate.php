@@ -13,7 +13,7 @@ class CheckAvailabilityDate extends BaseComponent
     public $colorCheck;
     public $dateFilter = '';
 
-    public $message = 'Hello World!';
+    public $message;
 
     public function setDate($data)
     {

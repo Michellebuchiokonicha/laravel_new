@@ -9,12 +9,13 @@ use Illuminate\Support\Facades\Session;
 class Home extends BaseComponent
 {
     public $dateFilter;
+    public $inputValue;
     
 
     public function updatedDate()
     {
-         Session::put('name', 'John DOe');
-         return view('updatedDate');
+        //  Session::put('name', 'John DOe');
+        //  return view('updatedDate');
         // Session::(['selectedStartDate' , $this->startDate]);
     }
 
@@ -22,7 +23,7 @@ class Home extends BaseComponent
     public function render()
     {
         // Session::put('name', 'John DOe');
-        Session::get('selectedDate', $this->dateFilter);
+        // Session::get('selectedDate', $this->dateFilter);
 
         return view('livewire.home');
     }
