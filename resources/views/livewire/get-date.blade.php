@@ -11,14 +11,17 @@
                                         <div class="col-12 col-lg-9">
                                             <!-- Input date -->
                                             <div class="mb-3">
-                                                {{$dateFilter}}hhh
                                                 <div class="control-icon" >
                                                     <label class="hicon hicon-menu-calendar  cursor-pointer" for="txtCheckDate"></label>
-                                                    <input wire:model.live="dateFilter" id="txtCheckDate" type="text" class=" {{$colorCheck}}" value="Mar 19 2023 - Mar 21 2023" placeholder=""
+                                                    <input wire:model.live="dateFilter" value='{{Session::get('selectedDate')}}' id="txtCheckDate" type="text" class=" {{$colorCheck}}" value="Mar 19 2023 - Mar 21 2023" placeholder=""
                                                  
                                                      >
                                                 </div>
                                             </div>
+                                             <!-- <button type="submit"><a href="/step-one" class="btn btn-primary w-100">
+                                                            <i class="hicon hicon-mmb-my-booking mr-1"></i>
+                                                            <span>Checdfkfddfk Rooms</span>
+                                                        </a></button> -->
                                             <!-- -------
                                             <div class="mb-9">
                                         <div class="control-icon">

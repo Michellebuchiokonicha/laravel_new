@@ -1,6 +1,4 @@
-<div>
-    @livewireScripts  
-  
+<div>  
     <div>
         <!-- Hero carousel -->
         <section id="heroVideo" class="hero-video">
@@ -25,8 +23,17 @@
             </div>
             <!-- /Video -->
             <!-- Check rooms -->
+
+            <div>
+    <label for="datepicker">Select a Date:</label>
+    <input type="date" wire:model="selectedDate" id="datepicker">
+
+</div>
+<button wire:click="redirectToOtherPage" class="btn btn-primary">Go to Another Page</button>
+
+-------------------------------
             {{Session::get('selectedDate')}}
-            @livewire('check-availability-date', ['colorCheck' => "check-date form-control bg-white text-white  bg-opacity-15 border-white border-opacity-20 shadow-sm cursor-pointer"])
+            @livewire('check-availability-date', ['colorCheck' => " form-control bg-white text-white  bg-opacity-15 border-white border-opacity-20 shadow-sm cursor-pointer"])
             <!-- /Check rooms -->
         </section>
         <!-- /Hero carousel -->
@@ -56,6 +63,7 @@
                         <!-- Description -->
                         <div class="bg-white h-100 d-flex align-items-center">
                             <div class="p-lg-5 mb-8">
+                               
                                 <span class="mb-2 fw-medium text-secondary ff-sub text-uppercase ls-1 d-block">Welcome to</span>
                                 <h2 class="text-uppercase ff-heading">Landmark Hotel</h2>
                                 <p class="mb-6">Landmark Hotel is a great place to begin working. It comes with an amazing location and style</p>
@@ -612,5 +620,4 @@
     </main>   
         
     </div>
-    @livewireScripts   
 </div>

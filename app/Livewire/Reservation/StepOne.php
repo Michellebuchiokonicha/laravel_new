@@ -9,6 +9,7 @@ use Illuminate\Support\Facades\Session;
 class StepOne extends BaseComponent
 {
     public $dateFilter;
+    public $mimi = 'hhhghghh';
     public function index()
     {
         Session::put('name', 'John Doe');
@@ -17,7 +18,7 @@ class StepOne extends BaseComponent
     }
     public function render()
     {
-        Session::get('selectedDate', $this->dateFilter);
+        Session::get('selectedDate');
         // dd('SelectedDate');
         return view('livewire.reservation.step-one');
     }

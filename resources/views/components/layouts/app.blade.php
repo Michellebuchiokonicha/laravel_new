@@ -1,16 +1,34 @@
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+<script type="text/javascript" src="https://cdn.jsdelivr.net/jquery/latest/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" />   
+
+
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <!-- <title>{{ $title ?? 'Page Title' }}</title> -->
         <title>Landmark Hotel </title>
+    
         <link href="assets/img/Landmark/landmark.ico" rel="shortcut icon">
     <link href="assets/css/bundle.min.css" rel="stylesheet">
-    @livewireStyles
+    
     </head>
     <body class="vh-100 vw-100 overflow-hidden bg-light">
+    <input type="text" name="daterange" value="01/01/2018 - 01/15/2018" />
+
+<script>
+$(function() {
+  $('input[name="daterange"]').daterangepicker({
+    opens: 'left'
+  }, function(start, end, label) {
+    console.log("A new date selection was made: " + start.format('YYYY-MM-DD') + ' to ' + end.format('YYYY-MM-DD'));
+  });
+});
+</script>
     <!-- Header -->
     <!-- Preloader -->
     <div class="position-fixed top-0 bottom-0 bg-white vw-100 z-1100 d-flex align-items-center justify-content-center" id="preloader">
@@ -780,6 +798,5 @@
     <!-- Scripts -->
     <script src="assets/js/bundle.min.js"></script>
     <!-- /Scripts -->
-    @livewireScripts
     </body>
 </html>

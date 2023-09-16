@@ -3,7 +3,7 @@
 namespace App\Livewire;
 
 use Livewire\Component;
-use illuminate\Support\Facades\Session;
+use Illuminate\Support\Facades\Session;
 
 class CheckAvailabilityDate extends BaseComponent
 {

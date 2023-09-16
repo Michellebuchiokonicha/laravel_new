@@ -9,6 +9,7 @@
                     <div class="col-12 col-xl-6">
                         <h1 class="mb-8 display-5 text-uppercase ff-heading fw-semibold">Reservation</h1>
                     </div>
+                    <!-- <div>   <input type="text" value='{{Session::get('selectedDate')}}'>val now</div> -->
                     <div class="col-12 col-xl-6">
                         <div class="pb-8 ps-xl-8">
                             <div class="position-relative m-4">
