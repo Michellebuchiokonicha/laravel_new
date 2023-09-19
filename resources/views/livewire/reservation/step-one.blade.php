@@ -28,6 +28,8 @@
         </section>
         <!-- /Page title -->
         <!-- Reservation -->
+        <input type="text" name="daterangepicker" value="01/01/2018 - 01/15/2018" />
+
         
         @livewire('check-availability-date', ['colorCheck' => "check-date form-control bg-white bg-opacity-15 border-white border-opacity-20 shadow-sm cursor-pointer"])
 
